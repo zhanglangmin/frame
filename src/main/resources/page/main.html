@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>用户列表</title>
+    <link href="/css/main.css" rel="stylesheet" />
+</head>
+<body>
+ 点击切换语言：
+    <a href="?locale=zh_CN">简体中文</a> &nbsp;&nbsp;
+    <a href="?locale=en_US">English(US)</a><br>
+    <h1 th:text="${message}">Hello, Spring Boot!</h1>
+     <h1 th:text="#{page.welcome}"></h1>
+     <input th:text="#{page.welcome}" />
+</body>
+</html>

@@ -1,0 +1,3 @@
+mybatis:
+  typeAliasesPackage: com.frame.entity
+  mapperLocations: classpath:com/frame/dao/mapper/*.xml

@@ -1,0 +1,32 @@
+spring:
+  profiles:
+    active: test,mybatis
+  datasource:
+      driver-class-name: oracle.jdbc.driver.OracleDriver
+      url: jdbc:oracle:thin:@127.0.0.1:1521:frame
+      username: frame
+      password: frame
+      # 使用druid数据源
+      type: com.alibaba.druid.pool.DruidDataSource
+  #thymelea模板配置
+  thymeleaf:
+    prefix: classpath:/page/
+    suffix: .html
+    mode: HTML5
+    encoding: UTF-8
+  #热部署文件，页面不产生缓存，及时更新
+    cache: false
+  messages:
+        encoding: UTF-8  #默认
+        basename: i18n/message #默认为messages，这里设置指向resource下的message配置文件，
+  resources:
+    #static-locations: classpath:/static  配置静态资源
+    chain:
+      strategy:
+        content:
+          enabled: true
+          paths: /**  
+#引入日志配置文件
+#=====================================  log  =============================
+logging:
+  config: classpath:logback.xml
