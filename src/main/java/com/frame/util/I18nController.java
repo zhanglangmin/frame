@@ -13,12 +13,9 @@ import org.springframework.web.bind.annotation.GetMapping;
  * @date 2018年11月22日 下午1:59:46
  * 
  */
-@Controller
 public class I18nController {
-    @Autowired
     private MessageSource messageSource;
 
-    @GetMapping("/i18n")
     public String i18n(Model model) {
         String message = messageSource.getMessage("page.content", null, Locale.SIMPLIFIED_CHINESE);
         System.out.println("message=" + message);

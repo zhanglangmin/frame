@@ -1,0 +1,643 @@
+2018-11-27 09:09:02,074 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 09:09:02,254 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 09:09:02,597 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 184192 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 09:09:02,598 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 09:09:02,599 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 09:09:05,703 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 09:09:06,517 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 4.257 seconds (JVM running for 5.092)
+2018-11-27 09:09:06,520 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 09:09:57,608 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:14:08,332 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:29:22,129 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 09:29:22,281 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 09:29:22,625 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 172548 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 09:29:22,626 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 09:29:22,626 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 09:29:25,680 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 09:29:26,573 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 4.285 seconds (JVM running for 5.099)
+2018-11-27 09:29:26,576 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 09:29:38,805 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:29:50,035 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:33:17,266 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 09:33:17,418 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 09:33:17,807 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186440 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 09:33:17,808 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 09:33:17,809 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 09:33:20,693 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 09:33:21,499 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 4.076 seconds (JVM running for 4.848)
+2018-11-27 09:33:21,502 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 09:34:11,130 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:35:18,385 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 09:35:18,440 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186440 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 09:35:18,441 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 09:35:18,441 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 09:35:19,235 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 09:35:19,697 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.308 seconds (JVM running for 123.05)
+2018-11-27 09:35:19,700 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 09:35:22,687 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:35:55,626 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 09:35:55,682 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186440 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 09:35:55,683 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 09:35:55,683 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 09:35:56,497 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 09:35:56,966 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.336 seconds (JVM running for 160.32)
+2018-11-27 09:35:56,970 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 09:36:01,965 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:36:02,655 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:36:04,792 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 09:36:04,797 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:36:18,303 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 09:36:18,305 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:37:04,671 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 09:37:04,723 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186440 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 09:37:04,724 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 09:37:04,724 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 09:37:05,494 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 09:37:05,964 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.287 seconds (JVM running for 229.32)
+2018-11-27 09:37:05,966 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 09:37:06,213 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 09:37:06,218 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:37:26,217 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 09:37:26,284 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186440 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 09:37:26,285 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 09:37:26,285 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 09:37:27,469 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 09:37:28,146 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.922 seconds (JVM running for 251.503)
+2018-11-27 09:37:28,153 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 09:37:28,408 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:37:30,719 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 09:37:30,721 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:38:22,046 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 09:38:22,098 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186440 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 09:38:22,098 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 09:38:22,098 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 09:38:22,833 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 09:38:23,278 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.226 seconds (JVM running for 306.636)
+2018-11-27 09:38:23,281 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 09:38:28,494 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 09:38:28,497 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:38:29,391 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 09:38:29,392 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:38:32,904 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:38:36,021 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 09:38:36,023 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:39:00,118 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:39:02,250 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 09:39:02,251 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:39:26,381 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 09:39:26,435 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186440 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 09:39:26,436 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 09:39:26,436 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 09:39:27,181 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 09:39:27,642 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.256 seconds (JVM running for 371.003)
+2018-11-27 09:39:27,645 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 09:39:32,352 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 09:39:32,410 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186440 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 09:39:32,410 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 09:39:32,411 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 09:39:33,255 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 09:39:33,736 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.377 seconds (JVM running for 377.097)
+2018-11-27 09:39:33,738 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 09:39:42,433 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 09:39:42,497 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186440 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 09:39:42,497 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 09:39:42,497 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 09:39:43,232 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 09:39:43,691 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.251 seconds (JVM running for 387.052)
+2018-11-27 09:39:43,694 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 09:40:01,437 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 09:40:01,440 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:40:40,830 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 09:40:41,004 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 09:40:41,428 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186952 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 09:40:41,431 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 09:40:41,433 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 09:40:46,154 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 09:40:47,210 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 6.2 seconds (JVM running for 7.029)
+2018-11-27 09:40:47,215 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 09:41:33,437 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:41:35,946 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 09:41:35,954 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:47:37,323 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:47:39,345 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 09:47:39,346 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:48:13,135 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 09:48:13,191 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186952 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 09:48:13,192 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 09:48:13,192 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 09:48:14,007 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 09:48:14,467 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.328 seconds (JVM running for 454.3)
+2018-11-27 09:48:14,469 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 09:48:18,349 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 09:48:20,399 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 09:48:27,903 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:48:30,141 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 09:52:35,838 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 09:52:35,895 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186952 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 09:52:35,895 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 09:52:35,895 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 09:52:36,711 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 09:52:37,273 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.429 seconds (JVM running for 717.115)
+2018-11-27 09:52:37,276 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 09:52:42,759 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 09:52:42,775 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:52:45,888 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 09:52:45,892 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:52:48,330 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 09:52:48,336 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:52:59,810 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 09:52:59,819 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:53:13,998 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:53:20,790 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 09:53:20,843 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186952 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 09:53:20,843 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 09:53:20,843 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 09:53:21,566 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 09:53:22,083 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.287 seconds (JVM running for 761.926)
+2018-11-27 09:53:22,086 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 09:53:24,615 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:53:26,533 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 09:53:45,297 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:53:46,187 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 09:53:46,263 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186952 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 09:53:46,263 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 09:53:46,263 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 09:53:47,358 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 09:53:47,937 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.741 seconds (JVM running for 787.78)
+2018-11-27 09:53:47,940 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 09:53:48,022 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 09:54:37,487 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 09:54:37,539 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186952 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 09:54:37,539 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 09:54:37,539 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 09:54:38,256 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 09:54:38,731 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.239 seconds (JVM running for 838.576)
+2018-11-27 09:54:38,733 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 09:54:59,074 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:55:01,510 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 09:56:11,022 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 09:56:11,073 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186952 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 09:56:11,073 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 09:56:11,073 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 09:56:11,778 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 09:56:12,216 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.189 seconds (JVM running for 932.064)
+2018-11-27 09:56:12,219 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 09:56:20,919 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:56:23,528 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 09:57:30,351 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 09:57:30,400 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186952 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 09:57:30,400 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 09:57:30,400 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 09:57:31,121 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 09:57:31,565 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.208 seconds (JVM running for 1011.416)
+2018-11-27 09:57:31,567 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 09:57:39,658 INFO (HelloController.java:37)- 进入方法
+2018-11-27 09:57:41,546 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 10:03:09,510 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:03:15,031 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 10:12:43,683 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 10:12:43,733 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186952 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 10:12:43,733 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 10:12:43,733 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 10:12:44,460 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 10:12:44,900 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.212 seconds (JVM running for 1924.78)
+2018-11-27 10:12:44,903 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 10:12:53,443 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 10:12:53,492 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186952 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 10:12:53,492 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 10:12:53,492 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 10:12:54,182 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 10:12:54,615 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.166 seconds (JVM running for 1934.495)
+2018-11-27 10:12:54,618 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 10:13:04,942 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:13:07,118 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 10:13:07,121 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:16:43,018 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 10:16:43,065 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186952 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 10:16:43,065 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 10:16:43,066 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 10:16:43,769 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 10:16:44,219 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.197 seconds (JVM running for 2164.106)
+2018-11-27 10:16:44,221 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 10:16:47,581 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 10:16:47,630 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186952 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 10:16:47,630 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 10:16:47,630 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 10:16:48,325 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 10:16:48,758 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.171 seconds (JVM running for 2168.645)
+2018-11-27 10:16:48,760 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 10:16:57,274 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 10:16:57,322 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186952 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 10:16:57,322 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 10:16:57,322 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 10:16:57,998 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 10:16:58,425 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.146 seconds (JVM running for 2178.312)
+2018-11-27 10:16:58,428 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 10:19:03,352 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:19:05,704 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 10:19:05,706 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:21:26,643 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 10:21:26,691 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186952 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 10:21:26,691 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 10:21:26,691 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 10:21:27,385 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 10:21:27,838 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.191 seconds (JVM running for 2447.734)
+2018-11-27 10:21:27,840 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 10:21:35,260 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:21:35,617 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:21:36,361 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:21:36,574 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:21:36,920 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:21:37,295 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:25:06,647 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 10:25:06,699 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186952 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 10:25:06,699 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 10:25:06,699 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 10:25:07,381 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 10:25:07,808 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.154 seconds (JVM running for 2667.711)
+2018-11-27 10:25:07,811 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 10:25:24,812 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:28:37,071 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 10:28:37,123 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186952 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 10:28:37,123 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 10:28:37,123 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 10:28:37,868 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 10:28:38,319 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.243 seconds (JVM running for 2878.228)
+2018-11-27 10:28:38,321 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 10:28:44,351 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 10:28:44,397 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186952 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 10:28:44,397 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 10:28:44,397 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 10:28:45,106 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 10:28:45,568 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.212 seconds (JVM running for 2885.478)
+2018-11-27 10:28:45,571 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 10:28:59,702 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:29:01,901 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:29:23,424 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 10:29:23,471 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186952 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 10:29:23,471 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 10:29:23,471 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 10:29:24,142 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 10:29:24,565 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.137 seconds (JVM running for 2924.476)
+2018-11-27 10:29:24,567 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 10:29:28,996 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:29:46,368 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 10:29:46,370 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:29:57,786 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:30:02,263 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 10:30:02,263 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:34:39,541 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 10:34:39,587 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186952 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 10:34:39,588 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 10:34:39,588 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 10:34:40,281 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 10:34:40,706 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.161 seconds (JVM running for 3240.626)
+2018-11-27 10:34:40,710 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 10:34:50,533 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 10:34:50,581 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186952 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 10:34:50,581 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 10:34:50,581 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 10:34:51,283 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 10:34:51,724 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.185 seconds (JVM running for 3251.645)
+2018-11-27 10:34:51,727 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 10:34:55,570 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:34:59,300 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 10:34:59,301 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:35:06,967 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 10:35:06,968 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:35:49,559 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 10:35:49,560 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:35:50,021 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 10:35:50,081 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186952 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 10:35:50,081 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 10:35:50,081 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 10:35:50,836 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 10:35:51,262 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.237 seconds (JVM running for 3311.185)
+2018-11-27 10:35:51,264 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 10:35:51,400 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 10:35:54,085 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:35:56,262 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 10:36:20,472 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:36:33,032 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:36:35,404 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 10:37:06,070 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 10:37:06,233 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 10:37:06,620 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186920 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 10:37:06,621 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 10:37:06,622 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 10:37:09,425 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 10:37:10,263 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 4.024 seconds (JVM running for 4.822)
+2018-11-27 10:37:10,266 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 10:37:17,479 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:37:21,100 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:37:24,748 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 10:37:34,213 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 10:37:34,272 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186920 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 10:37:34,272 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 10:37:34,272 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 10:37:35,064 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 10:37:35,569 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.35 seconds (JVM running for 30.128)
+2018-11-27 10:37:35,571 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 10:37:35,659 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:37:37,644 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 10:38:13,435 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 10:38:13,488 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186920 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 10:38:13,488 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 10:38:13,489 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 10:38:14,224 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 10:38:14,660 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.219 seconds (JVM running for 69.22)
+2018-11-27 10:38:14,662 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 10:38:20,418 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:38:22,487 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 10:39:20,574 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 10:39:20,626 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186920 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 10:39:20,626 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 10:39:20,626 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 10:39:21,379 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 10:39:21,865 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.285 seconds (JVM running for 136.428)
+2018-11-27 10:39:21,868 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 10:39:26,169 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:39:28,450 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 10:39:52,108 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 10:39:52,158 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 186920 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 10:39:52,158 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 10:39:52,158 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 10:39:52,862 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 10:39:53,297 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.185 seconds (JVM running for 167.861)
+2018-11-27 10:39:53,304 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 10:40:00,764 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:40:02,791 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 10:41:54,726 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 10:41:54,886 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 10:41:55,215 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 172108 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 10:41:55,216 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 10:41:55,216 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 10:41:58,080 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 10:41:58,857 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 3.965 seconds (JVM running for 4.765)
+2018-11-27 10:41:58,860 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 10:42:34,125 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:42:56,128 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 10:46:11,161 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 10:46:11,392 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 10:46:11,707 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 178492 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 10:46:11,708 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 10:46:11,709 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 10:46:14,503 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 10:46:15,258 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 3.859 seconds (JVM running for 4.81)
+2018-11-27 10:46:15,260 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 10:47:11,686 INFO (HelloController.java:37)- 进入方法
+2018-11-27 10:47:14,009 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 11:05:28,917 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 11:05:28,973 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 178492 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 11:05:28,974 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 11:05:28,974 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 11:05:29,814 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 11:05:30,265 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.343 seconds (JVM running for 1159.854)
+2018-11-27 11:05:30,268 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 11:08:20,143 INFO (HelloController.java:37)- 进入方法
+2018-11-27 11:08:59,153 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 11:08:59,207 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 178492 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 11:08:59,207 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 11:08:59,207 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 11:08:59,966 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 11:09:00,411 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.253 seconds (JVM running for 1370.006)
+2018-11-27 11:09:00,414 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 11:10:50,658 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 11:10:50,710 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 178492 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 11:10:50,710 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 11:10:50,710 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 11:10:51,426 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 11:10:51,876 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.212 seconds (JVM running for 1481.474)
+2018-11-27 11:10:51,878 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 11:13:00,067 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 11:13:00,115 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 178492 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 11:13:00,115 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 11:13:00,115 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 11:13:00,820 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 11:13:01,254 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.182 seconds (JVM running for 1610.857)
+2018-11-27 11:13:01,257 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 11:13:41,141 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 11:13:41,191 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 178492 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 11:13:41,191 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 11:13:41,191 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 11:13:41,917 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 11:13:42,356 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.21 seconds (JVM running for 1651.96)
+2018-11-27 11:13:42,359 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 11:13:45,627 INFO (HelloController.java:37)- 进入方法
+2018-11-27 11:14:19,693 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 11:14:19,743 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 178492 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 11:14:19,743 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 11:14:19,743 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 11:14:20,429 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 11:14:20,857 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.16 seconds (JVM running for 1690.462)
+2018-11-27 11:14:20,859 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 11:15:28,112 INFO (HelloController.java:37)- 进入方法
+2018-11-27 11:16:25,833 INFO (HelloController.java:37)- 进入方法
+2018-11-27 11:16:31,454 INFO (HelloController.java:37)- 进入方法
+2018-11-27 11:18:02,187 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 11:18:02,238 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 178492 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 11:18:02,238 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 11:18:02,238 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 11:18:02,948 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 11:18:03,382 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 1.189 seconds (JVM running for 1912.994)
+2018-11-27 11:18:03,385 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 11:18:03,861 INFO (HelloController.java:37)- 进入方法
+2018-11-27 11:20:55,524 INFO (LoginController.java:40)- 登录信息:null
+2018-11-27 12:44:06,035 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 12:44:06,206 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 12:44:06,528 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 179072 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 12:44:06,528 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 12:44:06,529 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 12:44:09,185 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 12:44:09,719 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 3.507 seconds (JVM running for 4.321)
+2018-11-27 12:44:09,722 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 12:45:58,271 INFO (HelloController.java:37)- 进入方法
+2018-11-27 12:46:23,725 INFO (HelloController.java:37)- 进入方法
+2018-11-27 12:46:30,698 INFO (HelloController.java:37)- 进入方法
+2018-11-27 12:46:47,854 INFO (HelloController.java:37)- 进入方法
+2018-11-27 12:46:55,686 INFO (HelloController.java:37)- 进入方法
+2018-11-27 12:47:28,422 INFO (HelloController.java:37)- 进入方法
+2018-11-27 12:48:02,433 INFO (HelloController.java:37)- 进入方法
+2018-11-27 12:48:47,916 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 12:48:47,974 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 179072 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 12:48:47,974 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 12:48:47,975 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 12:48:48,606 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 12:48:48,818 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 0.897 seconds (JVM running for 283.429)
+2018-11-27 12:48:48,822 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 12:48:56,207 INFO (HelloController.java:37)- 进入方法
+2018-11-27 12:49:08,469 INFO (HelloController.java:37)- 进入方法
+2018-11-27 12:49:43,337 INFO (HelloController.java:37)- 进入方法
+2018-11-27 12:50:14,019 INFO (HelloController.java:37)- 进入方法
+2018-11-27 13:30:20,013 INFO (HelloController.java:37)- 进入方法
+2018-11-27 13:30:52,507 INFO (HelloController.java:37)- 进入方法
+2018-11-27 13:31:31,669 INFO (HelloController.java:37)- 进入方法
+2018-11-27 13:31:37,794 INFO (HelloController.java:37)- 进入方法
+2018-11-27 13:34:37,476 INFO (HelloController.java:37)- 进入方法
+2018-11-27 13:34:40,246 INFO (HelloController.java:37)- 进入方法
+2018-11-27 13:54:38,091 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 13:54:38,250 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 13:54:38,574 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 188476 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 13:54:38,575 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 13:54:38,576 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 13:54:41,244 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 13:54:41,794 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 3.539 seconds (JVM running for 4.311)
+2018-11-27 13:54:41,797 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 13:57:21,767 INFO (HelloController.java:37)- 进入方法
+2018-11-27 13:58:00,436 INFO (HelloController.java:37)- 进入方法
+2018-11-27 13:58:43,789 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 13:58:43,847 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 188476 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 13:58:43,848 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 13:58:43,848 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 13:58:44,506 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 13:58:44,740 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 0.946 seconds (JVM running for 247.264)
+2018-11-27 13:58:44,743 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 13:59:00,872 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 13:59:00,927 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 188476 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 13:59:00,927 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 13:59:00,927 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 13:59:01,564 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 13:59:01,794 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 0.917 seconds (JVM running for 264.318)
+2018-11-27 13:59:01,797 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 14:00:11,664 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 14:00:11,723 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 188476 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 14:00:11,723 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 14:00:11,723 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 14:00:12,378 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 14:00:12,588 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 0.916 seconds (JVM running for 335.114)
+2018-11-27 14:00:12,590 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 14:00:49,402 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 14:00:49,457 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 188476 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 14:00:49,457 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 14:00:49,457 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 14:00:50,078 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 14:00:50,287 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 0.88 seconds (JVM running for 372.814)
+2018-11-27 14:00:50,290 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 14:02:48,707 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 14:02:48,760 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 188476 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 14:02:48,760 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 14:02:48,760 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 14:02:49,375 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 14:02:49,581 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 0.869 seconds (JVM running for 492.112)
+2018-11-27 14:02:49,583 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 14:03:01,592 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 14:03:01,646 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 188476 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 14:03:01,646 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 14:03:01,647 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 14:03:02,282 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 14:03:02,489 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 0.892 seconds (JVM running for 505.021)
+2018-11-27 14:03:02,492 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 14:03:23,839 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 14:03:23,891 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 188476 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 14:03:23,891 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 14:03:23,891 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 14:03:24,526 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 14:03:24,750 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 0.905 seconds (JVM running for 527.283)
+2018-11-27 14:03:24,753 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 14:03:26,465 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 14:03:26,515 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 188476 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 14:03:26,516 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 14:03:26,516 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 14:03:27,134 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 14:03:27,361 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 0.891 seconds (JVM running for 529.894)
+2018-11-27 14:03:27,364 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 14:03:34,777 INFO (HelloController.java:37)- 进入方法
+2018-11-27 14:04:06,253 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 14:04:06,303 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 188476 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 14:04:06,303 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 14:04:06,303 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 14:04:06,958 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 14:04:07,163 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 0.905 seconds (JVM running for 569.697)
+2018-11-27 14:04:07,166 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 14:04:07,726 INFO (HelloController.java:37)- 进入方法
+2018-11-27 14:04:09,235 INFO (HelloController.java:37)- 进入方法
+2018-11-27 14:04:25,353 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 14:04:25,409 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 188476 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 14:04:25,409 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 14:04:25,409 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 14:04:26,047 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 14:04:26,284 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 0.925 seconds (JVM running for 588.819)
+2018-11-27 14:04:26,287 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 14:04:26,675 INFO (HelloController.java:37)- 进入方法
+2018-11-27 14:05:13,604 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 14:05:13,654 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 188476 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 14:05:13,654 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 14:05:13,655 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 14:05:14,274 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 14:05:14,477 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 0.868 seconds (JVM running for 637.013)
+2018-11-27 14:05:14,480 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 14:05:15,546 INFO (HelloController.java:37)- 进入方法
+2018-11-27 14:05:26,440 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 14:05:26,493 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 188476 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 14:05:26,494 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 14:05:26,494 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 14:05:27,080 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 14:05:27,296 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 0.851 seconds (JVM running for 649.833)
+2018-11-27 14:05:27,302 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 14:05:30,919 INFO (HelloController.java:37)- 进入方法
+2018-11-27 14:05:40,413 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 14:05:40,464 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 188476 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 14:05:40,464 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 14:05:40,465 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 14:05:41,037 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 14:05:41,245 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 0.828 seconds (JVM running for 663.781)
+2018-11-27 14:05:41,247 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 14:07:13,910 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 14:07:13,969 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 188476 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 14:07:13,969 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 14:07:13,969 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 14:07:14,557 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 14:07:14,761 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 0.844 seconds (JVM running for 757.301)
+2018-11-27 14:07:14,764 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 14:07:16,668 INFO (HelloController.java:37)- 进入方法
+2018-11-27 14:07:54,668 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 14:07:54,724 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 188476 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 14:07:54,724 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 14:07:54,724 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 14:07:55,394 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 14:07:55,647 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 0.974 seconds (JVM running for 798.188)
+2018-11-27 14:07:55,651 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 14:07:58,299 INFO (HelloController.java:37)- 进入方法
+2018-11-27 14:11:51,835 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 14:11:51,890 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 188476 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 14:11:51,890 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 14:11:51,890 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 14:11:52,515 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 14:11:52,723 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 0.883 seconds (JVM running for 1035.271)
+2018-11-27 14:11:52,726 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 14:12:00,505 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 14:12:00,555 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 188476 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 14:12:00,556 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 14:12:00,556 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 14:12:01,206 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 14:12:01,407 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 0.896 seconds (JVM running for 1043.955)
+2018-11-27 14:12:01,409 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 14:13:24,618 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 14:13:24,668 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 188476 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 14:13:24,668 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 14:13:24,668 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 14:13:25,324 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 14:13:25,529 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 0.906 seconds (JVM running for 1128.081)
+2018-11-27 14:13:25,532 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 14:14:01,248 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 14:14:01,296 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 188476 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 14:14:01,296 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 14:14:01,296 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 14:14:01,914 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 14:14:02,129 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 0.875 seconds (JVM running for 1164.681)
+2018-11-27 14:14:02,131 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 14:14:30,311 INFO (HelloController.java:37)- 进入方法
+2018-11-27 14:17:08,776 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 14:17:08,827 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 188476 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 14:17:08,827 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 14:17:08,827 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 14:17:09,462 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 14:17:09,668 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 0.888 seconds (JVM running for 1352.226)
+2018-11-27 14:17:09,670 INFO (FrameApplication.java:21)- spring初始化结束
+2018-11-27 14:18:16,472 INFO (FrameApplication.java:19)- spring初始化开始
+2018-11-27 14:18:16,522 INFO (StartupInfoLogger.java:50)- Starting FrameApplication on guancp-PC2 with PID 188476 (F:\git\frame\target\classes started by zhanglm in F:\git\frame)
+2018-11-27 14:18:16,522 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-27 14:18:16,522 INFO (SpringApplication.java:679)- The following profiles are active: test,mybatis
+2018-11-27 14:18:17,176 INFO (LocaleConfig.java:44)- 设置语言参数名
+2018-11-27 14:18:17,379 INFO (StartupInfoLogger.java:59)- Started FrameApplication in 0.901 seconds (JVM running for 1419.939)
+2018-11-27 14:18:17,381 INFO (FrameApplication.java:21)- spring初始化结束

@@ -27,7 +27,7 @@ import lombok.extern.slf4j.Slf4j;
 public class HelloController {
 	@Autowired
 	private IUserInfoService userService;
-	 @RequestMapping("/greeting")  
+	 @RequestMapping("/login")  
 	    public String hello(Model model)  
 	    {  
 //		 	FrUserInfo userInfo=new FrUserInfo();
@@ -49,10 +49,10 @@ public class HelloController {
 //	        model.addAttribute("message", messageSource.getMessage("page.welcome", null, locale));
 
 		 	FrUserInfo userInfo=new FrUserInfo();
-		 	userInfo.setUserName("请输入用户名!");
-		 	userInfo.setPassWord("请输入密码!");
+		 	userInfo.setUserName("张三");
+		 	userInfo.setPassWord("123456");
 		 	model.addAttribute("userInfo",userInfo);
 		 	
-		 	return "login";
+		 	return "index";
 	    }  
 }

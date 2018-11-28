@@ -1,556 +1,1458 @@
 <!DOCTYPE html>
-<html lang="zxx">
-<head>
-<title>Faqs</title>
-<!-- custom-theme -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-		function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- //custom-theme -->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/component.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/style_grid.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<!-- font-awesome-icons -->
-<link href="css/font-awesome.css" rel="stylesheet"> 
-<!-- //font-awesome-icons -->
-<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
-</head>
-<body>
-<!-- banner -->
-<div class="wthree_agile_admin_info">
-		  <!-- /w3_agileits_top_nav-->
-		  <!-- /nav-->
-		  <div class="w3_agileits_top_nav">
-			<ul id="gn-menu" class="gn-menu-main">
-				  		 <!-- /nav_agile_w3l -->
-				<li class="gn-trigger">
-					<a class="gn-icon gn-icon-menu"><i class="fa fa-bars" aria-hidden="true"></i><span>Menu</span></a>
-					<nav class="gn-menu-wrapper">
-						<div class="gn-scroller scrollbar1">
-							<ul class="gn-menu agile_menu_drop">
-								<li><a href="main-page.html"> <i class="fa fa-tachometer"></i> Dashboard</a></li>
-								<li>
-									<a href="#"><i class="fa fa-cogs" aria-hidden="true"></i> UI Components <i class="fa fa-angle-down" aria-hidden="true"></i></a> 
-									<ul class="gn-submenu">
-										<li class="mini_list_agile"><a href="buttons.html"><i class="fa fa-caret-right" aria-hidden="true"></i> Buttons</a></li>
-										<li class="mini_list_w3"><a href="grids.html"> <i class="fa fa-caret-right" aria-hidden="true"></i> Grids</a></li>
+<html lang="en">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta charset="utf-8" />
+		<title>FAQ - Ace Admin</title>
+
+		<meta name="description" content="frequently asked questions using tabs and accordions" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+		<!-- bootstrap & fontawesome -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="assets/font-awesome/4.5.0/css/font-awesome.min.css" />
+
+		<!-- page specific plugin styles -->
+
+		<!-- text fonts -->
+		<link rel="stylesheet" href="assets/css/fonts.googleapis.com.css" />
+
+		<!-- ace styles -->
+		<link rel="stylesheet" href="assets/css/ace.min.css" class="ace-main-stylesheet" id="main-ace-style" />
+
+		<!--[if lte IE 9]>
+			<link rel="stylesheet" href="assets/css/ace-part2.min.css" class="ace-main-stylesheet" />
+		<![endif]-->
+		<link rel="stylesheet" href="assets/css/ace-skins.min.css" />
+		<link rel="stylesheet" href="assets/css/ace-rtl.min.css" />
+
+		<!--[if lte IE 9]>
+		  <link rel="stylesheet" href="assets/css/ace-ie.min.css" />
+		<![endif]-->
+
+		<!-- inline styles related to this page -->
+
+		<!-- ace settings handler -->
+		<script src="assets/js/ace-extra.min.js"></script>
+
+		<!-- HTML5shiv and Respond.js for IE8 to support HTML5 elements and media queries -->
+
+		<!--[if lte IE 8]>
+		<script src="assets/js/html5shiv.min.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body class="no-skin">
+		<div id="navbar" class="navbar navbar-default          ace-save-state">
+			<div class="navbar-container ace-save-state" id="navbar-container">
+				<button type="button" class="navbar-toggle menu-toggler pull-left" id="menu-toggler" data-target="#sidebar">
+					<span class="sr-only">Toggle sidebar</span>
+
+					<span class="icon-bar"></span>
+
+					<span class="icon-bar"></span>
+
+					<span class="icon-bar"></span>
+				</button>
+
+				<div class="navbar-header pull-left">
+					<a href="index.html" class="navbar-brand">
+						<small>
+							<i class="fa fa-leaf"></i>
+							Ace Admin
+						</small>
+					</a>
+				</div>
+
+				<div class="navbar-buttons navbar-header pull-right" role="navigation">
+					<ul class="nav ace-nav">
+						<li class="grey dropdown-modal">
+							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
+								<i class="ace-icon fa fa-tasks"></i>
+								<span class="badge badge-grey">4</span>
+							</a>
+
+							<ul class="dropdown-menu-right dropdown-navbar dropdown-menu dropdown-caret dropdown-close">
+								<li class="dropdown-header">
+									<i class="ace-icon fa fa-check"></i>
+									4 Tasks to complete
+								</li>
+
+								<li class="dropdown-content">
+									<ul class="dropdown-menu dropdown-navbar">
+										<li>
+											<a href="#">
+												<div class="clearfix">
+													<span class="pull-left">Software Update</span>
+													<span class="pull-right">65%</span>
+												</div>
+
+												<div class="progress progress-mini">
+													<div style="width:65%" class="progress-bar"></div>
+												</div>
+											</a>
+										</li>
+
+										<li>
+											<a href="#">
+												<div class="clearfix">
+													<span class="pull-left">Hardware Upgrade</span>
+													<span class="pull-right">35%</span>
+												</div>
+
+												<div class="progress progress-mini">
+													<div style="width:35%" class="progress-bar progress-bar-danger"></div>
+												</div>
+											</a>
+										</li>
+
+										<li>
+											<a href="#">
+												<div class="clearfix">
+													<span class="pull-left">Unit Testing</span>
+													<span class="pull-right">15%</span>
+												</div>
+
+												<div class="progress progress-mini">
+													<div style="width:15%" class="progress-bar progress-bar-warning"></div>
+												</div>
+											</a>
+										</li>
+
+										<li>
+											<a href="#">
+												<div class="clearfix">
+													<span class="pull-left">Bug Fixes</span>
+													<span class="pull-right">90%</span>
+												</div>
+
+												<div class="progress progress-mini progress-striped active">
+													<div style="width:90%" class="progress-bar progress-bar-success"></div>
+												</div>
+											</a>
+										</li>
 									</ul>
 								</li>
-								<li>
-									<a href="#"> <i class="fa fa-file-text-o" aria-hidden="true"></i>Forms <i class="fa fa-angle-down" aria-hidden="true"></i></a> 
-									<ul class="gn-submenu">
-										<li class="mini_list_agile"><a href="input.html"><i class="fa fa-caret-right" aria-hidden="true"></i> Inputs</a></li>
-										<li class="mini_list_w3"><a href="validation.html"><i class="fa fa-caret-right" aria-hidden="true"></i> Validation</a></li>
-									</ul>
-								</li>
-								<li><a href="table.html"> <i class="fa fa-table" aria-hidden="true"></i> Tables</a></li>
-								<li><a href="#"><i class="fa fa-list" aria-hidden="true"></i>Short Codes <i class="fa fa-angle-down" aria-hidden="true"> </i></a> 
-								     	<ul class="gn-submenu">
-										<li class="mini_list_agile"><a href="typo.html"> <i class="fa fa-caret-right" aria-hidden="true"></i> Typography</a></li>
-										<li class="mini_list_w3"><a href="icons.html"> <i class="fa fa-caret-right" aria-hidden="true"></i> Icons</a></li>
-										
-									</ul>
-								</li>
-								
-								<li><a href="charts.html"> <i class="fa fa-line-chart" aria-hidden="true"></i> Charts</a></li>
-								<li><a href="maps.html"><i class="fa fa-map-o" aria-hidden="true"></i> Maps</a></li>
-								<li class="page">
-									<a href="#"><i class="fa fa-files-o" aria-hidden="true"></i> Pages <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-									 <ul class="gn-submenu">
-						
-									  <li class="mini_list_agile"> <a href="signin.html"> <i class="fa fa-caret-right" aria-hidden="true"></i> Sign In</a></li>
-									   <li class="mini_list_w3"><a href="signup.html"> <i class="fa fa-caret-right" aria-hidden="true"></i> Sign Up</a></li>
-									   <li class="mini_list_agile error"><a href="404.html"> <i class="fa fa-caret-right" aria-hidden="true"></i> Error 404 </a></li>
-	
-										<li class="mini_list_w3_line"><a href="calendar.html"> <i class="fa fa-caret-right" aria-hidden="true"></i> Calendar</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="#"> <i class="fa fa-suitcase" aria-hidden="true"></i>More <i class="fa fa-angle-down" aria-hidden="true"></i></a> 
-									<ul class="gn-submenu">
-										<li class="mini_list_agile"><a href="faq.html"> <i class="fa fa-caret-right" aria-hidden="true"></i> Faq</a></li>
-										<li class="mini_list_w3"><a href="blank.html"> <i class="fa fa-caret-right" aria-hidden="true"></i> Blank Page</a></li>
-									</ul>
+
+								<li class="dropdown-footer">
+									<a href="#">
+										See tasks with details
+										<i class="ace-icon fa fa-arrow-right"></i>
+									</a>
 								</li>
 							</ul>
-						</div><!-- /gn-scroller -->
-					</nav>
-				</li>
-				<!-- //nav_agile_w3l -->
-				<!-- //nav_agile_w3l -->
-                <li class="second logo"><h1><a href="main-page.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i>Esteem </a></h1></li>
-					<li class="second admin-pic">
-				       <ul class="top_dp_agile">
-									<li class="dropdown profile_details_drop">
-										<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-											<div class="profile_img">	
-												<span class="prfil-img"><img src="images/admin.jpg" alt=""> </span> 
-											</div>	
-										</a>
-										<ul class="dropdown-menu drp-mnu">
-											<li> <a href="#"><i class="fa fa-cog"></i> Settings</a> </li> 
-											<li> <a href="#"><i class="fa fa-user"></i> Profile</a> </li> 
-											<li> <a href="#"><i class="fa fa-sign-out"></i> Logout</a> </li>
-										</ul>
-									</li>
-									
-						</ul>
-				</li>
-				<li class="second top_bell_nav">
-				   <ul class="top_dp_agile ">
-									<li class="dropdown head-dpdn">
-										<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><i class="fa fa-bell-o" aria-hidden="true"></i> <span class="badge blue">4</span></a>
-										<ul class="dropdown-menu">
-											<li>
-												<div class="notification_header">
-													<h3>Your Notifications</h3>
-												</div>
-											</li>
-											<li><a href="#">
-												<div class="user_img"><img src="images/a3.jpg" alt=""></div>
-											   <div class="notification_desc">
-											     <h6>John Smith</h6>
-												<p>Lorem ipsum dolor</p>
-												<p><span>1 hour ago</span></p>
-												</div>
-											  <div class="clearfix"></div>	
-											 </a></li>
-											 <li class="odd"><a href="#">
-												<div class="user_img"><img src="images/a1.jpg" alt=""></div>
-											   <div class="notification_desc">
-											     <h6>Jasmin Leo</h6>
-												<p>Lorem ipsum dolor</p>
-												<p><span>3 hour ago</span></p>
-												</div>
-											   <div class="clearfix"></div>	
-											 </a></li>
-											 <li><a href="#">
-												<div class="user_img"><img src="images/a2.jpg" alt=""></div>
-											   <div class="notification_desc">
-											     <h6>James Smith</h6>
-												<p>Lorem ipsum dolor</p>
-												<p><span>2 hour ago</span></p>
-												</div>
-											   <div class="clearfix"></div>	
-											 </a></li>
-											  <li><a href="#">
-												<div class="user_img"><img src="images/a4.jpg" alt=""></div>
-											   <div class="notification_desc">
-											     <h6>James Smith</h6>
-												<p>Lorem ipsum dolor</p>
-												<p><span>1 hour ago</span></p>
-												</div>
-											   <div class="clearfix"></div>	
-											 </a></li>
-											 <li>
-												<div class="notification_bottom">
-													<a href="#">See all Notifications</a>
-												</div> 
-											</li>
-										</ul>
-									</li>
-									
-						</ul>
-				</li>
-				<li class="second top_bell_nav">
-				   <ul class="top_dp_agile ">
-									<li class="dropdown head-dpdn">
-										<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><i class="fa fa-envelope-o" aria-hidden="true"></i> <span class="badge blue">3</span></a>
-										<ul class="dropdown-menu">
-											<li>
-												<div class="notification_header">
-													<h3>Your Messages</h3>
-												</div>
-											</li>
-											<li><a href="#">
-												<div class="user_img"><img src="images/a3.jpg" alt=""></div>
-											   <div class="notification_desc">
-											     <h6>John Smith</h6>
-												<p>Lorem ipsum dolor</p>
-												<p><span>3 hour ago</span></p>
-												</div>
-											  <div class="clearfix"></div>	
-											 </a></li>
-											 <li class="odd"><a href="#">
-												<div class="user_img"><img src="images/a1.jpg" alt=""></div>
-											   <div class="notification_desc">
-											     <h6>Jasmin Leo</h6>
-												<p>Lorem ipsum dolor</p>
-												<p><span>2 hour ago</span></p>
-												</div>
-											   <div class="clearfix"></div>	
-											 </a></li>
-											 <li><a href="#">
-												<div class="user_img"><img src="images/a2.jpg" alt=""></div>
-											   <div class="notification_desc">
-											     <h6>James Smith</h6>
-												<p>Lorem ipsum dolor</p>
-												<p><span>1 hour ago</span></p>
-												</div>
-											   <div class="clearfix"></div>	
-											 </a></li>
-											 <li>
-												<div class="notification_bottom">
-													<a href="#">See all Messages</a>
-												</div> 
-											</li>
-										</ul>
-									</li>
-									
-						</ul>
-				</li>
-				<li class="second top_bell_nav">
-				   <ul class="top_dp_agile ">
-				       <li class="dropdown head-dpdn">
-										<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-tasks"></i><span class="badge blue">9</span></a>
-										<ul class="dropdown-menu">
-											<li>
-												<div class="notification_header">
-													<h3>You have 4 Pending tasks</h3>
-												</div>
-											</li>
-											<li><a href="#">
-												<div class="task-info">
-													<span class="task-desc">Database update</span><span class="percentage">40%</span>
-													<div class="clearfix"></div>	
-												</div>
-												<div class="progress progress-striped active">
-													<div class="bar yellow" style="width:40%;"></div>
-												</div>
-											</a></li>
-											<li><a href="#">
-												<div class="task-info">
-													<span class="task-desc">Dashboard done</span><span class="percentage">90%</span>
-												   <div class="clearfix"></div>	
-												</div>
-												<div class="progress progress-striped active">
-													 <div class="bar green" style="width:90%;"></div>
-												</div>
-											</a></li>
-											<li><a href="#">
-												<div class="task-info">
-													<span class="task-desc">Mobile App</span><span class="percentage">33%</span>
-													<div class="clearfix"></div>	
-												</div>
-											   <div class="progress progress-striped active">
-													 <div class="bar red" style="width: 33%;"></div>
-												</div>
-											</a></li>
-											<li><a href="#">
-												<div class="task-info">
-													<span class="task-desc">Issues fixed</span><span class="percentage">80%</span>
-												   <div class="clearfix"></div>	
-												</div>
-												<div class="progress progress-striped active">
-													 <div class="bar  blue" style="width: 80%;"></div>
-												</div>
-											</a></li>
-											<li>
-												<div class="notification_bottom">
-													<a href="#">See all pending tasks</a>
-												</div> 
-											</li>
-										</ul>
-									</li>	
-								</ul>
-				</li>
+						</li>
 
-				<li class="second w3l_search">
-				 
-						<form action="#" method="post">
-							<input type="search" name="search" placeholder="Search here..." required="">
-							<button class="btn btn-default" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-						</form>
-					
-				</li>
-				<li class="second full-screen">
-					<section class="full-top">
-						<button id="toggle"><i class="fa fa-arrows-alt" aria-hidden="true"></i></button>	
-					</section>
-				</li>
+						<li class="purple dropdown-modal">
+							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
+								<i class="ace-icon fa fa-bell icon-animated-bell"></i>
+								<span class="badge badge-important">8</span>
+							</a>
 
-			</ul>
-			<!-- //nav -->
-			
-		</div>
-		<div class="clearfix"></div>
-		<!-- //w3_agileits_top_nav-->
-		
-		<!-- /inner_content-->
-				<div class="inner_content">
-				    <!-- /inner_content_w3_agile_info-->
+							<ul class="dropdown-menu-right dropdown-navbar navbar-pink dropdown-menu dropdown-caret dropdown-close">
+								<li class="dropdown-header">
+									<i class="ace-icon fa fa-exclamation-triangle"></i>
+									8 Notifications
+								</li>
 
-					<!-- breadcrumbs -->
-						<div class="w3l_agileits_breadcrumbs">
-							<div class="w3l_agileits_breadcrumbs_inner">
-								<ul>
-									<li><a href="main-page.html">Home</a><span>«</span></li>
-									<li>More <span>«</span></li>
-									<li>FaQs</li>
-								</ul>
-							</div>
-						</div>
-					<!-- //breadcrumbs -->
+								<li class="dropdown-content">
+									<ul class="dropdown-menu dropdown-navbar navbar-pink">
+										<li>
+											<a href="#">
+												<div class="clearfix">
+													<span class="pull-left">
+														<i class="btn btn-xs no-hover btn-pink fa fa-comment"></i>
+														New Comments
+													</span>
+													<span class="pull-right badge badge-info">+12</span>
+												</div>
+											</a>
+										</li>
 
-					<div class="inner_content_w3_agile_info two_in">
-					  <h2 class="w3_inner_tittle">Frequently Asked Questions</h2>
+										<li>
+											<a href="#">
+												<i class="btn btn-xs btn-primary fa fa-user"></i>
+												Bob just signed up as an editor ...
+											</a>
+										</li>
 
-								<div class="asked agile_info_shadow">
-									<div class="questions">
-										<h5>1.What is Lorem Ipsum?</h5>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-									</div>
-									 <div class="questions">
-										<h5>2.What is Lorem Ipsum dummy text ever since the 1500s?</h5>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-									 </div>	
-									
-									  <div class="questions">
-										<h5>3.What is Duis laoreet, erat quis gravida porttitor odio felis ornare dui?</h5>
-										<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam semper elit risus, nec suscipit tellus tincidunt quis. Fusce non auctor enim. Suspendisse sit amet erat mollis, suscipit nisl sed, condimentum turpis. Curabitur faucibus, nisl ut aliquam porta, massa tortor tristique dolor, eget porttitor velit ligula vel eros. Sed egestas aliquet tellus. Nulla ac luctus urna. Pellentesque feugiat eros quis nibh consectetur, eget dapibus magna egestas. Phasellus non efficitur metus.</p>
-									 </div>	
-							
-									  <div class="questions">
-										<h5>4.What is Quisque sollicitudin diam vel mauris volutpat viverra Proin ac imperdiet libero?</h5>
-										<p>Proin dignissim mi sit amet tincidunt varius. Quisque molestie fermentum dignissim. Sed in urna eget tortor congue tempus. Vestibulum gravida, erat in eleifend ultricies, felis lorem dictum nulla, ut tincidunt neque libero et nibh. Nullam at eros eu ligula auctor interdum a eget lorem. Praesent molestie eros vitae felis efficitur, at finibus sem molestie. Ut sit amet nisi at nunc pulvinar dapibus. Sed non neque et tortor finibus mattis. Mauris sit amet consectetur eros. Sed et ex posuere, vulputate dolor vel, pulvinar felis. </p>
-									 </div>	
-									  <div class="questions">
-										<h5>5.What is Nam semper elit risus, nec suscipit tellus tincidunt quis?</h5>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-									 </div>	
-									  <div class="questions">
-										<h5>6.What is Quisque molestie fermentum dignissim?</h5>
-										<p>Sed eget nunc ex. Donec erat est, dapibus ac massa in, laoreet sagittis eros. Aliquam eget arcu feugiat leo elementum tristique. Praesent facilisis aliquam lorem sed pharetra. Donec scelerisque ipsum vel tincidunt gravida. Aliquam erat volutpat. Etiam mattis rhoncus massa, quis semper purus ornare id. Quisque sit amet mattis ipsum, in porttitor massa. Nullam tincidunt mi vel enim volutpat, a elementum libero imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean tincidunt eros eu nisl consequat facilisis. Maecenas ac accumsan elit, sit amet gravida nulla.</p>
-									 </div>	
-									  <div class="questions">
-										<h5>7.What is Vestibulum ante ipsum primis in faucibus orci luctus et?</h5>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-									 </div>				    
+										<li>
+											<a href="#">
+												<div class="clearfix">
+													<span class="pull-left">
+														<i class="btn btn-xs no-hover btn-success fa fa-shopping-cart"></i>
+														New Orders
+													</span>
+													<span class="pull-right badge badge-success">+8</span>
+												</div>
+											</a>
+										</li>
 
-								</div>
-							<!-- //faq -->
-					
-							<!-- /social_media-->
-						  <div class="social_media_w3ls">
-						 
-						      <div class="col-md-3 socail_grid_agile facebook">
-                                     <ul class="icon_w3_info">
-									   <li><a href="#" class="wthree_facebook"> <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-									   <li>Facebook</li>
-									 </ul>
-									  <ul class="icon_w3_social">
-									    <li><i class="fa fa-comment-o" aria-hidden="true"></i></li>
-										<li><i class="fa fa-envelope-o" aria-hidden="true"></i></li>
-										<li><i class="fa fa-user" aria-hidden="true"></i></li>
-                                      </ul>
-									 <div class="clearfix"></div>
-									  <div class="bottom_info_social">
-									 <div class="col-md-4 agile_w3l_social_media_text_img">
-									    <img src="images/admin.jpg" alt="">
-									 </div>
-									  <div class="col-md-8 agile_w3l_social_media_text">
-									    <h4>Hurisa Joe</h4>
-										<p>Lorem ipsum dolor sit amet</p>
-									 </div>
-									
-									 <div class="clearfix"></div>
-									 </div>
-                              </div>
-							  <div class="col-md-3 socail_grid_agile twitter">
-                                         <ul class="icon_w3_info">
-									   <li><a href="#" class="wthree_facebook"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-									   <li>Twitter</li>
-									 </ul>
-									  <ul class="icon_w3_social">
-									    <li><i class="fa fa-comment-o" aria-hidden="true"></i></li>
-										<li><i class="fa fa-envelope-o" aria-hidden="true"></i></li>
-										<li><i class="fa fa-user" aria-hidden="true"></i></li>
-                                      </ul>
-									 <div class="clearfix"></div>
-									  <div class="bottom_info_social">
-									 <div class="col-md-4 agile_w3l_social_media_text_img">
-									    <img src="images/a1.jpg" alt="">
-									 </div>
-									  <div class="col-md-8 agile_w3l_social_media_text">
-									    <h4>Jasmin Joe</h4>
-										<p>Lorem ipsum dolor sit amet</p>
-									 </div>
-									
-									 <div class="clearfix"></div>
-									 </div>
-                              </div>
-							  <div class="col-md-3 socail_grid_agile gmail">
-                                     <ul class="icon_w3_info">
-									   <li><a href="#" class="wthree_facebook"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-									   <li>Google+</li>
-									 </ul>
-									  <ul class="icon_w3_social">
-									    <li><i class="fa fa-comment-o" aria-hidden="true"></i></li>
-										<li><i class="fa fa-envelope-o" aria-hidden="true"></i></li>
-										<li><i class="fa fa-user" aria-hidden="true"></i></li>
-                                      </ul>
-									 <div class="clearfix"></div>
-									  <div class="bottom_info_social">
-									 <div class="col-md-4 agile_w3l_social_media_text_img">
-									    <img src="images/a2.jpg" alt="">
-									 </div>
-									  <div class="col-md-8 agile_w3l_social_media_text">
-									    <h4>John Pal</h4>
-										<p>Lorem ipsum dolor sit amet</p>
-									 </div>
-									
-									 <div class="clearfix"></div>
-									 </div>
-                              </div>
-							  <div class="col-md-3 socail_grid_agile dribble">
-							  
-							     <ul class="icon_w3_info">
-									  <li><a href="#" class="wthree_facebook"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-									   <li>Dribbble</li>
-									 </ul>
-									  <ul class="icon_w3_social">
-									    <li><i class="fa fa-comment-o" aria-hidden="true"></i></li>
-										<li><i class="fa fa-envelope-o" aria-hidden="true"></i></li>
-										<li><i class="fa fa-user" aria-hidden="true"></i></li>
-                                      </ul>
-									 <div class="clearfix"></div>
-									  <div class="bottom_info_social">
-									 <div class="col-md-4 agile_w3l_social_media_text_img">
-									    <img src="images/a4.jpg" alt="">
-									 </div>
-									  <div class="col-md-8 agile_w3l_social_media_text">
-									    <h4>Honey Pal</h4>
-										<p>Lorem ipsum dolor sit amet</p>
-									 </div>
-									
-									 <div class="clearfix"></div>
-									 </div>
+										<li>
+											<a href="#">
+												<div class="clearfix">
+													<span class="pull-left">
+														<i class="btn btn-xs no-hover btn-info fa fa-twitter"></i>
+														Followers
+													</span>
+													<span class="pull-right badge badge-info">+11</span>
+												</div>
+											</a>
+										</li>
+									</ul>
+								</li>
 
-                              </div>
-							  <div class="clearfix"></div>
-													
-						</div>
-						<!-- //social_media-->
-				    </div>
-					<!-- //inner_content_w3_agile_info-->
+								<li class="dropdown-footer">
+									<a href="#">
+										See all notifications
+										<i class="ace-icon fa fa-arrow-right"></i>
+									</a>
+								</li>
+							</ul>
+						</li>
+
+						<li class="green dropdown-modal">
+							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
+								<i class="ace-icon fa fa-envelope icon-animated-vertical"></i>
+								<span class="badge badge-success">5</span>
+							</a>
+
+							<ul class="dropdown-menu-right dropdown-navbar dropdown-menu dropdown-caret dropdown-close">
+								<li class="dropdown-header">
+									<i class="ace-icon fa fa-envelope-o"></i>
+									5 Messages
+								</li>
+
+								<li class="dropdown-content">
+									<ul class="dropdown-menu dropdown-navbar">
+										<li>
+											<a href="#" class="clearfix">
+												<img src="assets/images/avatars/avatar.png" class="msg-photo" alt="Alex's Avatar" />
+												<span class="msg-body">
+													<span class="msg-title">
+														<span class="blue">Alex:</span>
+														Ciao sociis natoque penatibus et auctor ...
+													</span>
+
+													<span class="msg-time">
+														<i class="ace-icon fa fa-clock-o"></i>
+														<span>a moment ago</span>
+													</span>
+												</span>
+											</a>
+										</li>
+
+										<li>
+											<a href="#" class="clearfix">
+												<img src="assets/images/avatars/avatar3.png" class="msg-photo" alt="Susan's Avatar" />
+												<span class="msg-body">
+													<span class="msg-title">
+														<span class="blue">Susan:</span>
+														Vestibulum id ligula porta felis euismod ...
+													</span>
+
+													<span class="msg-time">
+														<i class="ace-icon fa fa-clock-o"></i>
+														<span>20 minutes ago</span>
+													</span>
+												</span>
+											</a>
+										</li>
+
+										<li>
+											<a href="#" class="clearfix">
+												<img src="assets/images/avatars/avatar4.png" class="msg-photo" alt="Bob's Avatar" />
+												<span class="msg-body">
+													<span class="msg-title">
+														<span class="blue">Bob:</span>
+														Nullam quis risus eget urna mollis ornare ...
+													</span>
+
+													<span class="msg-time">
+														<i class="ace-icon fa fa-clock-o"></i>
+														<span>3:15 pm</span>
+													</span>
+												</span>
+											</a>
+										</li>
+
+										<li>
+											<a href="#" class="clearfix">
+												<img src="assets/images/avatars/avatar2.png" class="msg-photo" alt="Kate's Avatar" />
+												<span class="msg-body">
+													<span class="msg-title">
+														<span class="blue">Kate:</span>
+														Ciao sociis natoque eget urna mollis ornare ...
+													</span>
+
+													<span class="msg-time">
+														<i class="ace-icon fa fa-clock-o"></i>
+														<span>1:33 pm</span>
+													</span>
+												</span>
+											</a>
+										</li>
+
+										<li>
+											<a href="#" class="clearfix">
+												<img src="assets/images/avatars/avatar5.png" class="msg-photo" alt="Fred's Avatar" />
+												<span class="msg-body">
+													<span class="msg-title">
+														<span class="blue">Fred:</span>
+														Vestibulum id penatibus et auctor  ...
+													</span>
+
+													<span class="msg-time">
+														<i class="ace-icon fa fa-clock-o"></i>
+														<span>10:09 am</span>
+													</span>
+												</span>
+											</a>
+										</li>
+									</ul>
+								</li>
+
+								<li class="dropdown-footer">
+									<a href="inbox.html">
+										See all messages
+										<i class="ace-icon fa fa-arrow-right"></i>
+									</a>
+								</li>
+							</ul>
+						</li>
+
+						<li class="light-blue dropdown-modal">
+							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
+								<img class="nav-user-photo" src="assets/images/avatars/user.jpg" alt="Jason's Photo" />
+								<span class="user-info">
+									<small>Welcome,</small>
+									Jason
+								</span>
+
+								<i class="ace-icon fa fa-caret-down"></i>
+							</a>
+
+							<ul class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
+								<li>
+									<a href="#">
+										<i class="ace-icon fa fa-cog"></i>
+										Settings
+									</a>
+								</li>
+
+								<li>
+									<a href="profile.html">
+										<i class="ace-icon fa fa-user"></i>
+										Profile
+									</a>
+								</li>
+
+								<li class="divider"></li>
+
+								<li>
+									<a href="#">
+										<i class="ace-icon fa fa-power-off"></i>
+										Logout
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
 				</div>
-		<!-- //inner_content-->
-	</div>
-<!-- banner -->
-<!--copy rights start here-->
-<div class="copyrights">
-	 <p>Copyright &copy; 2017.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
-</div>	
-<!--copy rights end here-->
-<!-- js -->
+			</div><!-- /.navbar-container -->
+		</div>
 
-          <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-		  <script src="js/modernizr.custom.js"></script>
-		
-		   <script src="js/classie.js"></script>
-		  <script src="js/gnmenu.js"></script>
-		  <script>
-			new gnMenu( document.getElementById( 'gn-menu' ) );
-		 </script>
-	<!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>--->        
+		<div class="main-container ace-save-state" id="main-container">
 			<script type="text/javascript">
-				google.maps.event.addDomListener(window, 'load', init);
-				function init() {
-					var mapOptions = {
-						zoom: 11,
-						center: new google.maps.LatLng(40.6700, -73.9400),
-						styles: [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]
-					};
-					var mapElement = document.getElementById('map');
-					var map = new google.maps.Map(mapElement, mapOptions);
-					var marker = new google.maps.Marker({
-						position: new google.maps.LatLng(40.6700, -73.9400),
-						map: map,
-					});
-				}
+				try{ace.settings.loadState('main-container')}catch(e){}
 			</script>
-			  <script src="js/prettymaps.js"></script>
-				<script>
 
-        $(function(){
-            //default
-            $('.map-canvas').prettyMaps({
-                address: 'Melbourne, Australia',
-                image: 'map-icon.png',
-                hue: '#FF0000',
-                saturation: -20
-            });
+			<div id="sidebar" class="sidebar                  responsive                    ace-save-state">
+				<script type="text/javascript">
+					try{ace.settings.loadState('sidebar')}catch(e){}
+				</script>
 
-            //red map example
-            $('#default-map-btn').on('click', function(){
-                $('.map-canvas').prettyMaps();
-            });
+				<div class="sidebar-shortcuts" id="sidebar-shortcuts">
+					<div class="sidebar-shortcuts-large" id="sidebar-shortcuts-large">
+						<button class="btn btn-success">
+							<i class="ace-icon fa fa-signal"></i>
+						</button>
 
-            //green map example
-            $('#green-map-btn').on('click', function(){
-                $('.map-canvas').prettyMaps({
-                    address: 'Melbourne, Australia',
-                    image: 'map-icon.png',
-                    hue: '#00FF55',
-                    saturation: -30
-                });
-            });
+						<button class="btn btn-info">
+							<i class="ace-icon fa fa-pencil"></i>
+						</button>
 
-            //blue map example
-            $('#blue-map-btn').on('click', function(){
-                $('.map-canvas').prettyMaps({
-                    address: 'Melbourne, Australia',
-                    image: 'map-icon.png',
-                    hue: '#0073FF',
-                    saturation: -30,
-                    zoom: 16,
-                    panControl: true,
-                    zoomControl: true,
-                    mapTypeControl: true,
-                    scaleControl: true,
-                    streetViewControl: true,
-                    overviewMapControl: true,
-                    scrollwheel: false,
-                });
-            });
-            
-            //grey map example
-            $('#grey-map-btn').on('click', function(){
-                $('.map-canvas').prettyMaps({
-                    address: 'Melbourne, Australia',
-                    image: 'map-icon.png',
-                    saturation: -100,
-                    lightness: 10
-                });
-            });
-        });
+						<button class="btn btn-warning">
+							<i class="ace-icon fa fa-users"></i>
+						</button>
 
-  </script>
-<!-- //js -->
-<script src="js/screenfull.js"></script>
-		<script>
-		$(function () {
-			$('#supported').text('Supported/allowed: ' + !!screenfull.enabled);
+						<button class="btn btn-danger">
+							<i class="ace-icon fa fa-cogs"></i>
+						</button>
+					</div>
 
-			if (!screenfull.enabled) {
-				return false;
-			}
+					<div class="sidebar-shortcuts-mini" id="sidebar-shortcuts-mini">
+						<span class="btn btn-success"></span>
 
-			
+						<span class="btn btn-info"></span>
 
-			$('#toggle').click(function () {
-				screenfull.toggle($('#container')[0]);
-			});	
-		});
+						<span class="btn btn-warning"></span>
+
+						<span class="btn btn-danger"></span>
+					</div>
+				</div><!-- /.sidebar-shortcuts -->
+
+				<ul class="nav nav-list">
+					<li class="">
+						<a href="index.html">
+							<i class="menu-icon fa fa-tachometer"></i>
+							<span class="menu-text"> Dashboard </span>
+						</a>
+
+						<b class="arrow"></b>
+					</li>
+
+					<li class="">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-desktop"></i>
+							<span class="menu-text">
+								UI &amp; Elements
+							</span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+
+						<ul class="submenu">
+							<li class="">
+								<a href="#" class="dropdown-toggle">
+									<i class="menu-icon fa fa-caret-right"></i>
+
+									Layouts
+									<b class="arrow fa fa-angle-down"></b>
+								</a>
+
+								<b class="arrow"></b>
+
+								<ul class="submenu">
+									<li class="">
+										<a href="top-menu.html">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Top Menu
+										</a>
+
+										<b class="arrow"></b>
+									</li>
+
+									<li class="">
+										<a href="two-menu-1.html">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Two Menus 1
+										</a>
+
+										<b class="arrow"></b>
+									</li>
+
+									<li class="">
+										<a href="two-menu-2.html">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Two Menus 2
+										</a>
+
+										<b class="arrow"></b>
+									</li>
+
+									<li class="">
+										<a href="mobile-menu-1.html">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Default Mobile Menu
+										</a>
+
+										<b class="arrow"></b>
+									</li>
+
+									<li class="">
+										<a href="mobile-menu-2.html">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Mobile Menu 2
+										</a>
+
+										<b class="arrow"></b>
+									</li>
+
+									<li class="">
+										<a href="mobile-menu-3.html">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Mobile Menu 3
+										</a>
+
+										<b class="arrow"></b>
+									</li>
+								</ul>
+							</li>
+
+							<li class="">
+								<a href="typography.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Typography
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="elements.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Elements
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="buttons.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Buttons &amp; Icons
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="content-slider.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Content Sliders
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="treeview.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Treeview
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="jquery-ui.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									jQuery UI
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="nestable-list.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Nestable Lists
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="#" class="dropdown-toggle">
+									<i class="menu-icon fa fa-caret-right"></i>
+
+									Three Level Menu
+									<b class="arrow fa fa-angle-down"></b>
+								</a>
+
+								<b class="arrow"></b>
+
+								<ul class="submenu">
+									<li class="">
+										<a href="#">
+											<i class="menu-icon fa fa-leaf green"></i>
+											Item #1
+										</a>
+
+										<b class="arrow"></b>
+									</li>
+
+									<li class="">
+										<a href="#" class="dropdown-toggle">
+											<i class="menu-icon fa fa-pencil orange"></i>
+
+											4th level
+											<b class="arrow fa fa-angle-down"></b>
+										</a>
+
+										<b class="arrow"></b>
+
+										<ul class="submenu">
+											<li class="">
+												<a href="#">
+													<i class="menu-icon fa fa-plus purple"></i>
+													Add Product
+												</a>
+
+												<b class="arrow"></b>
+											</li>
+
+											<li class="">
+												<a href="#">
+													<i class="menu-icon fa fa-eye pink"></i>
+													View Products
+												</a>
+
+												<b class="arrow"></b>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+
+					<li class="">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-list"></i>
+							<span class="menu-text"> Tables </span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+
+						<ul class="submenu">
+							<li class="">
+								<a href="tables.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Simple &amp; Dynamic
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="jqgrid.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									jqGrid plugin
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+						</ul>
+					</li>
+
+					<li class="">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-pencil-square-o"></i>
+							<span class="menu-text"> Forms </span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+
+						<ul class="submenu">
+							<li class="">
+								<a href="form-elements.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Form Elements
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="form-elements-2.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Form Elements 2
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="form-wizard.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Wizard &amp; Validation
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="wysiwyg.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Wysiwyg &amp; Markdown
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="dropzone.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Dropzone File Upload
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+						</ul>
+					</li>
+
+					<li class="">
+						<a href="widgets.html">
+							<i class="menu-icon fa fa-list-alt"></i>
+							<span class="menu-text"> Widgets </span>
+						</a>
+
+						<b class="arrow"></b>
+					</li>
+
+					<li class="">
+						<a href="calendar.html">
+							<i class="menu-icon fa fa-calendar"></i>
+
+							<span class="menu-text">
+								Calendar
+
+								<span class="badge badge-transparent tooltip-error" title="2 Important Events">
+									<i class="ace-icon fa fa-exclamation-triangle red bigger-130"></i>
+								</span>
+							</span>
+						</a>
+
+						<b class="arrow"></b>
+					</li>
+
+					<li class="">
+						<a href="gallery.html">
+							<i class="menu-icon fa fa-picture-o"></i>
+							<span class="menu-text"> Gallery </span>
+						</a>
+
+						<b class="arrow"></b>
+					</li>
+
+					<li class="">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-tag"></i>
+							<span class="menu-text"> More Pages </span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+
+						<ul class="submenu">
+							<li class="">
+								<a href="profile.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									User Profile
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="inbox.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Inbox
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="pricing.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Pricing Tables
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="invoice.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Invoice
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="timeline.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Timeline
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="search.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Search Results
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="email.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Email Templates
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="login.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Login &amp; Register
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+						</ul>
+					</li>
+
+					<li class="active open">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-file-o"></i>
+
+							<span class="menu-text">
+								Other Pages
+
+								<span class="badge badge-primary">5</span>
+							</span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+
+						<ul class="submenu">
+							<li class="active">
+								<a href="faq.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									FAQ
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="error-404.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Error 404
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="error-500.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Error 500
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="grid.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Grid
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="blank.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Blank Page
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+						</ul>
+					</li>
+				</ul><!-- /.nav-list -->
+
+				<div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse">
+					<i id="sidebar-toggle-icon" class="ace-icon fa fa-angle-double-left ace-save-state" data-icon1="ace-icon fa fa-angle-double-left" data-icon2="ace-icon fa fa-angle-double-right"></i>
+				</div>
+			</div>
+
+			<div class="main-content">
+				<div class="main-content-inner">
+					<div class="breadcrumbs ace-save-state" id="breadcrumbs">
+						<ul class="breadcrumb">
+							<li>
+								<i class="ace-icon fa fa-home home-icon"></i>
+								<a href="#">Home</a>
+							</li>
+
+							<li>
+								<a href="#">Other Pages</a>
+							</li>
+							<li class="active">FAQ</li>
+						</ul><!-- /.breadcrumb -->
+
+						<div class="nav-search" id="nav-search">
+							<form class="form-search">
+								<span class="input-icon">
+									<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
+									<i class="ace-icon fa fa-search nav-search-icon"></i>
+								</span>
+							</form>
+						</div><!-- /.nav-search -->
+					</div>
+
+					<div class="page-content">
+						<div class="ace-settings-container" id="ace-settings-container">
+							<div class="btn btn-app btn-xs btn-warning ace-settings-btn" id="ace-settings-btn">
+								<i class="ace-icon fa fa-cog bigger-130"></i>
+							</div>
+
+							<div class="ace-settings-box clearfix" id="ace-settings-box">
+								<div class="pull-left width-50">
+									<div class="ace-settings-item">
+										<div class="pull-left">
+											<select id="skin-colorpicker" class="hide">
+												<option data-skin="no-skin" value="#438EB9">#438EB9</option>
+												<option data-skin="skin-1" value="#222A2D">#222A2D</option>
+												<option data-skin="skin-2" value="#C6487E">#C6487E</option>
+												<option data-skin="skin-3" value="#D0D0D0">#D0D0D0</option>
+											</select>
+										</div>
+										<span>&nbsp; Choose Skin</span>
+									</div>
+
+									<div class="ace-settings-item">
+										<input type="checkbox" class="ace ace-checkbox-2 ace-save-state" id="ace-settings-navbar" autocomplete="off" />
+										<label class="lbl" for="ace-settings-navbar"> Fixed Navbar</label>
+									</div>
+
+									<div class="ace-settings-item">
+										<input type="checkbox" class="ace ace-checkbox-2 ace-save-state" id="ace-settings-sidebar" autocomplete="off" />
+										<label class="lbl" for="ace-settings-sidebar"> Fixed Sidebar</label>
+									</div>
+
+									<div class="ace-settings-item">
+										<input type="checkbox" class="ace ace-checkbox-2 ace-save-state" id="ace-settings-breadcrumbs" autocomplete="off" />
+										<label class="lbl" for="ace-settings-breadcrumbs"> Fixed Breadcrumbs</label>
+									</div>
+
+									<div class="ace-settings-item">
+										<input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-rtl" autocomplete="off" />
+										<label class="lbl" for="ace-settings-rtl"> Right To Left (rtl)</label>
+									</div>
+
+									<div class="ace-settings-item">
+										<input type="checkbox" class="ace ace-checkbox-2 ace-save-state" id="ace-settings-add-container" autocomplete="off" />
+										<label class="lbl" for="ace-settings-add-container">
+											Inside
+											<b>.container</b>
+										</label>
+									</div>
+								</div><!-- /.pull-left -->
+
+								<div class="pull-left width-50">
+									<div class="ace-settings-item">
+										<input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-hover" autocomplete="off" />
+										<label class="lbl" for="ace-settings-hover"> Submenu on Hover</label>
+									</div>
+
+									<div class="ace-settings-item">
+										<input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-compact" autocomplete="off" />
+										<label class="lbl" for="ace-settings-compact"> Compact Sidebar</label>
+									</div>
+
+									<div class="ace-settings-item">
+										<input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-highlight" autocomplete="off" />
+										<label class="lbl" for="ace-settings-highlight"> Alt. Active Item</label>
+									</div>
+								</div><!-- /.pull-left -->
+							</div><!-- /.ace-settings-box -->
+						</div><!-- /.ace-settings-container -->
+
+						<div class="page-header">
+							<h1>
+								FAQ
+								<small>
+									<i class="ace-icon fa fa-angle-double-right"></i>
+									frequently asked questions using tabs and accordions
+								</small>
+							</h1>
+						</div><!-- /.page-header -->
+
+						<div class="row">
+							<div class="col-xs-12">
+								<!-- PAGE CONTENT BEGINS -->
+								<div class="tabbable">
+									<ul class="nav nav-tabs padding-18 tab-size-bigger" id="myTab">
+										<li class="active">
+											<a data-toggle="tab" href="#faq-tab-1">
+												<i class="blue ace-icon fa fa-question-circle bigger-120"></i>
+												General
+											</a>
+										</li>
+
+										<li>
+											<a data-toggle="tab" href="#faq-tab-2">
+												<i class="green ace-icon fa fa-user bigger-120"></i>
+												Account
+											</a>
+										</li>
+
+										<li>
+											<a data-toggle="tab" href="#faq-tab-3">
+												<i class="orange ace-icon fa fa-credit-card bigger-120"></i>
+												Payments
+											</a>
+										</li>
+
+										<li class="dropdown">
+											<a data-toggle="dropdown" class="dropdown-toggle" href="#">
+												<i class="purple ace-icon fa fa-magic bigger-120"></i>
+
+												Misc
+												<i class="ace-icon fa fa-caret-down"></i>
+											</a>
+
+											<ul class="dropdown-menu dropdown-lighter dropdown-125">
+												<li>
+													<a data-toggle="tab" href="#faq-tab-4"> Affiliates </a>
+												</li>
+
+												<li>
+													<a data-toggle="tab" href="#faq-tab-4"> Merchants </a>
+												</li>
+											</ul>
+										</li><!-- /.dropdown -->
+									</ul>
+
+									<div class="tab-content no-border padding-24">
+										<div id="faq-tab-1" class="tab-pane fade in active">
+											<h4 class="blue">
+												<i class="ace-icon fa fa-check bigger-110"></i>
+												General Questions
+											</h4>
+
+											<div class="space-8"></div>
+
+											<div id="faq-list-1" class="panel-group accordion-style1 accordion-style2">
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<a href="#faq-1-1" data-parent="#faq-list-1" data-toggle="collapse" class="accordion-toggle collapsed">
+															<i class="ace-icon fa fa-chevron-left pull-right" data-icon-hide="ace-icon fa fa-chevron-down" data-icon-show="ace-icon fa fa-chevron-left"></i>
+
+															<i class="ace-icon fa fa-user bigger-130"></i>
+															&nbsp; High life accusamus terry richardson ad squid?
+														</a>
+													</div>
+
+													<div class="panel-collapse collapse" id="faq-1-1">
+														<div class="panel-body">
+															Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+														</div>
+													</div>
+												</div>
+
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<a href="#faq-1-2" data-parent="#faq-list-1" data-toggle="collapse" class="accordion-toggle collapsed">
+															<i class="ace-icon fa fa-chevron-left pull-right" data-icon-hide="ace-icon fa fa-chevron-down" data-icon-show="ace-icon fa fa-chevron-left"></i>
+
+															<i class="ace-icon fa fa-sort-amount-desc"></i>
+															&nbsp; Can I have nested questions?
+														</a>
+													</div>
+
+													<div class="panel-collapse collapse" id="faq-1-2">
+														<div class="panel-body">
+															<div id="faq-list-nested-1" class="panel-group accordion-style1 accordion-style2">
+																<div class="panel panel-default">
+																	<div class="panel-heading">
+																		<a href="#faq-list-1-sub-1" data-parent="#faq-list-nested-1" data-toggle="collapse" class="accordion-toggle collapsed">
+																			<i class="ace-icon fa fa-plus smaller-80 middle" data-icon-hide="ace-icon fa fa-minus" data-icon-show="ace-icon fa fa-plus"></i>&nbsp;
+									   Enim eiusmod high life accusamus terry?
+																		</a>
+																	</div>
+
+																	<div class="panel-collapse collapse" id="faq-list-1-sub-1">
+																		<div class="panel-body">
+																			Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+																		</div>
+																	</div>
+																</div>
+
+																<div class="panel panel-default">
+																	<div class="panel-heading">
+																		<a href="#faq-list-1-sub-2" data-parent="#faq-list-nested-1" data-toggle="collapse" class="accordion-toggle collapsed">
+																			<i class="ace-icon fa fa-plus smaller-80 middle" data-icon-hide="ace-icon fa fa-minus" data-icon-show="ace-icon fa fa-plus"></i>&nbsp;
+									  Food truck quinoa nesciunt laborum eiusmod?
+																		</a>
+																	</div>
+
+																	<div class="panel-collapse collapse" id="faq-list-1-sub-2">
+																		<div class="panel-body">
+																			Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+																		</div>
+																	</div>
+																</div>
+
+																<div class="panel panel-default">
+																	<div class="panel-heading">
+																		<a href="#faq-list-1-sub-3" data-parent="#faq-list-nested-1" data-toggle="collapse" class="accordion-toggle collapsed">
+																			<i class="ace-icon fa fa-plus smaller-80 middle" data-icon-hide="ace-icon fa fa-minus" data-icon-show="ace-icon fa fa-plus"></i>&nbsp;
+									  Cupidatat skateboard dolor brunch?
+																		</a>
+																	</div>
+
+																	<div class="panel-collapse collapse" id="faq-list-1-sub-3">
+																		<div class="panel-body">
+																			Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<a href="#faq-1-3" data-parent="#faq-list-1" data-toggle="collapse" class="accordion-toggle collapsed">
+															<i class="ace-icon fa fa-chevron-left pull-right" data-icon-hide="ace-icon fa fa-chevron-down" data-icon-show="ace-icon fa fa-chevron-left"></i>
+
+															<i class="ace-icon fa fa-credit-card bigger-130"></i>
+															&nbsp; Single-origin coffee nulla assumenda shoreditch et?
+														</a>
+													</div>
+
+													<div class="panel-collapse collapse" id="faq-1-3">
+														<div class="panel-body">
+															Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+														</div>
+													</div>
+												</div>
+
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<a href="#faq-1-4" data-parent="#faq-list-1" data-toggle="collapse" class="accordion-toggle collapsed">
+															<i class="ace-icon fa fa-chevron-left pull-right" data-icon-hide="ace-icon fa fa-chevron-down" data-icon-show="ace-icon fa fa-chevron-left"></i>
+
+															<i class="ace-icon fa fa-files-o bigger-130"></i>
+															&nbsp; Sunt aliqua put a bird on it squid?
+														</a>
+													</div>
+
+													<div class="panel-collapse collapse" id="faq-1-4">
+														<div class="panel-body">
+															Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+														</div>
+													</div>
+												</div>
+
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<a href="#faq-1-5" data-parent="#faq-list-1" data-toggle="collapse" class="accordion-toggle collapsed">
+															<i class="ace-icon fa fa-chevron-left pull-right" data-icon-hide="ace-icon fa fa-chevron-down" data-icon-show="ace-icon fa fa-chevron-left"></i>
+
+															<i class="ace-icon fa fa-cog bigger-130"></i>
+															&nbsp; Brunch 3 wolf moon tempor sunt aliqua put?
+														</a>
+													</div>
+
+													<div class="panel-collapse collapse" id="faq-1-5">
+														<div class="panel-body">
+															Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div id="faq-tab-2" class="tab-pane fade">
+											<h4 class="blue">
+												<i class="green ace-icon fa fa-user bigger-110"></i>
+												Account Questions
+											</h4>
+
+											<div class="space-8"></div>
+
+											<div id="faq-list-2" class="panel-group accordion-style1 accordion-style2">
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<a href="#faq-2-1" data-parent="#faq-list-2" data-toggle="collapse" class="accordion-toggle collapsed">
+															<i class="ace-icon fa fa-chevron-right smaller-80" data-icon-hide="ace-icon fa fa-chevron-down align-top" data-icon-show="ace-icon fa fa-chevron-right"></i>&nbsp;
+						Enim eiusmod high life accusamus terry richardson?
+														</a>
+													</div>
+
+													<div class="panel-collapse collapse" id="faq-2-1">
+														<div class="panel-body">
+															Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+														</div>
+													</div>
+												</div>
+
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<a href="#faq-2-2" data-parent="#faq-list-2" data-toggle="collapse" class="accordion-toggle collapsed">
+															<i class="ace-icon fa fa-chevron-right smaller-80" data-icon-hide="ace-icon fa fa-chevron-down align-top" data-icon-show="ace-icon fa fa-chevron-right"></i>&nbsp;
+					  Single-origin coffee nulla assumenda shoreditch et?
+														</a>
+													</div>
+
+													<div class="panel-collapse collapse" id="faq-2-2">
+														<div class="panel-body">
+															Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+														</div>
+													</div>
+												</div>
+
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<a href="#faq-2-3" data-parent="#faq-list-2" data-toggle="collapse" class="accordion-toggle collapsed">
+															<i class="ace-icon fa fa-chevron-right middle smaller-80" data-icon-hide="ace-icon fa fa-chevron-down align-top" data-icon-show="ace-icon fa fa-chevron-right"></i>&nbsp;
+					  Sunt aliqua put a bird on it squid?
+														</a>
+													</div>
+
+													<div class="panel-collapse collapse" id="faq-2-3">
+														<div class="panel-body">
+															Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+														</div>
+													</div>
+												</div>
+
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<a href="#faq-2-4" data-parent="#faq-list-2" data-toggle="collapse" class="accordion-toggle collapsed">
+															<i class="ace-icon fa fa-chevron-right smaller-80" data-icon-hide="ace-icon fa fa-chevron-down align-top" data-icon-show="ace-icon fa fa-chevron-right"></i>&nbsp;
+					  Brunch 3 wolf moon tempor sunt aliqua put?
+														</a>
+													</div>
+
+													<div class="panel-collapse collapse" id="faq-2-4">
+														<div class="panel-body">
+															Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div id="faq-tab-3" class="tab-pane fade">
+											<h4 class="blue">
+												<i class="orange ace-icon fa fa-credit-card bigger-110"></i>
+												Payment Questions
+											</h4>
+
+											<div class="space-8"></div>
+
+											<div id="faq-list-3" class="panel-group accordion-style1 accordion-style2">
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<a href="#faq-3-1" data-parent="#faq-list-3" data-toggle="collapse" class="accordion-toggle collapsed">
+															<i class="ace-icon fa fa-plus smaller-80" data-icon-hide="ace-icon fa fa-minus" data-icon-show="ace-icon fa fa-plus"></i>&nbsp;
+						Enim eiusmod high life accusamus terry richardson?
+														</a>
+													</div>
+
+													<div class="panel-collapse collapse" id="faq-3-1">
+														<div class="panel-body">
+															Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+														</div>
+													</div>
+												</div>
+
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<a href="#faq-3-2" data-parent="#faq-list-3" data-toggle="collapse" class="accordion-toggle collapsed">
+															<i class="ace-icon fa fa-plus smaller-80" data-icon-hide="ace-icon fa fa-minus" data-icon-show="ace-icon fa fa-plus"></i>&nbsp;
+					  Single-origin coffee nulla assumenda shoreditch et?
+														</a>
+													</div>
+
+													<div class="panel-collapse collapse" id="faq-3-2">
+														<div class="panel-body">
+															Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+														</div>
+													</div>
+												</div>
+
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<a href="#faq-3-3" data-parent="#faq-list-3" data-toggle="collapse" class="accordion-toggle collapsed">
+															<i class="ace-icon fa fa-plus smaller-80" data-icon-hide="ace-icon fa fa-minus" data-icon-show="ace-icon fa fa-plus"></i>&nbsp;
+					  Sunt aliqua put a bird on it squid?
+														</a>
+													</div>
+
+													<div class="panel-collapse collapse" id="faq-3-3">
+														<div class="panel-body">
+															Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+														</div>
+													</div>
+												</div>
+
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<a href="#faq-3-4" data-parent="#faq-list-3" data-toggle="collapse" class="accordion-toggle collapsed">
+															<i class="ace-icon fa fa-plus smaller-80" data-icon-hide="ace-icon fa fa-minus" data-icon-show="ace-icon fa fa-plus"></i>&nbsp;
+					  Brunch 3 wolf moon tempor sunt aliqua put?
+														</a>
+													</div>
+
+													<div class="panel-collapse collapse" id="faq-3-4">
+														<div class="panel-body">
+															Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div id="faq-tab-4" class="tab-pane fade">
+											<h4 class="blue">
+												<i class="purple ace-icon fa fa-magic bigger-110"></i>
+												Miscellaneous Questions
+											</h4>
+
+											<div class="space-8"></div>
+
+											<div id="faq-list-4" class="panel-group accordion-style1 accordion-style2">
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<a href="#faq-4-1" data-parent="#faq-list-4" data-toggle="collapse" class="accordion-toggle collapsed">
+															<i class="ace-icon fa fa-hand-o-right" data-icon-hide="ace-icon fa fa-hand-o-down" data-icon-show="ace-icon fa fa-hand-o-right"></i>&nbsp;
+						Enim eiusmod high life accusamus terry richardson?
+														</a>
+													</div>
+
+													<div class="panel-collapse collapse" id="faq-4-1">
+														<div class="panel-body">
+															Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+														</div>
+													</div>
+												</div>
+
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<a href="#faq-4-2" data-parent="#faq-list-4" data-toggle="collapse" class="accordion-toggle collapsed">
+															<i class="ace-icon fa fa-frown-o bigger-120" data-icon-hide="ace-icon fa fa-smile-o" data-icon-show="ace-icon fa fa-frown-o"></i>&nbsp;
+					  Single-origin coffee nulla assumenda shoreditch et?
+														</a>
+													</div>
+
+													<div class="panel-collapse collapse" id="faq-4-2">
+														<div class="panel-body">
+															Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+														</div>
+													</div>
+												</div>
+
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<a href="#faq-4-3" data-parent="#faq-list-4" data-toggle="collapse" class="accordion-toggle collapsed">
+															<i class="ace-icon fa fa-plus smaller-80" data-icon-hide="ace-icon fa fa-minus" data-icon-show="ace-icon fa fa-plus"></i>&nbsp;
+					  Sunt aliqua put a bird on it squid?
+														</a>
+													</div>
+
+													<div class="panel-collapse collapse" id="faq-4-3">
+														<div class="panel-body">
+															Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+														</div>
+													</div>
+												</div>
+
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<a href="#faq-4-4" data-parent="#faq-list-4" data-toggle="collapse" class="accordion-toggle collapsed">
+															<i class="ace-icon fa fa-plus smaller-80" data-icon-hide="ace-icon fa fa-minus" data-icon-show="ace-icon fa fa-plus"></i>&nbsp;
+					  Brunch 3 wolf moon tempor sunt aliqua put?
+														</a>
+													</div>
+
+													<div class="panel-collapse collapse" id="faq-4-4">
+														<div class="panel-body">
+															Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- PAGE CONTENT ENDS -->
+							</div><!-- /.col -->
+						</div><!-- /.row -->
+					</div><!-- /.page-content -->
+				</div>
+			</div><!-- /.main-content -->
+
+			<div class="footer">
+				<div class="footer-inner">
+					<div class="footer-content">
+						<span class="bigger-120">
+							<span class="blue bolder">Ace</span>
+							Application &copy; 2013-2014
+						</span>
+
+						&nbsp; &nbsp;
+						<span class="action-buttons">
+							<a href="#">
+								<i class="ace-icon fa fa-twitter-square light-blue bigger-150"></i>
+							</a>
+
+							<a href="#">
+								<i class="ace-icon fa fa-facebook-square text-primary bigger-150"></i>
+							</a>
+
+							<a href="#">
+								<i class="ace-icon fa fa-rss-square orange bigger-150"></i>
+							</a>
+						</span>
+					</div>
+				</div>
+			</div>
+
+			<a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
+				<i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i>
+			</a>
+		</div><!-- /.main-container -->
+
+		<!-- basic scripts -->
+
+		<!--[if !IE]> -->
+		<script src="assets/js/jquery-2.1.4.min.js"></script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+<script src="assets/js/jquery-1.11.3.min.js"></script>
+<![endif]-->
+		<script type="text/javascript">
+			if('ontouchstart' in document.documentElement) document.write("<script src='assets/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
 		</script>
-<script src="js/jquery.nicescroll.js"></script>
-<script src="js/scripts.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
 
-<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+		<!-- page specific plugin scripts -->
 
+		<!-- ace scripts -->
+		<script src="assets/js/ace-elements.min.js"></script>
+		<script src="assets/js/ace.min.js"></script>
 
-</body>
+		<!-- inline scripts related to this page -->
+	</body>
 </html>

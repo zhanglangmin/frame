@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.frame.domain.Constants;
 import com.frame.entity.FrUserInfo;
 import com.frame.services.IUserInfoService;
+import com.frame.services.impl.UserInfoServiceImpl;
 
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
@@ -34,11 +35,22 @@ public class LoginController {
 	 * @param userInfo
 	 * @return
 	 */
-	@RequestMapping(value="/loginIn",method = RequestMethod.GET)
-	public String loginIn(FrUserInfo userInfo,String userName,String passWord) {
-		log.info("登录信息:"+userInfo.getUserName());
+	@RequestMapping(value="/loginIn")
+	public String loginIn(String userName,String passWord) {
 		log.info("登录信息:"+userName);
-		return "login";
+		//return "redirect:/login";
+		//"forward:/login";
+		return "/login.html";
 	}
 	
+	
+	/**
+	 * 注册
+	 * @param userInfo
+	 * @return
+	 */
+	public String register(FrUserInfo userInfo) {
+		
+		return "redirect:/login";
+	}
 }

@@ -1,209 +1,331 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
-<head>
-<title>Admin Login </title>
-<!-- custom-theme -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-		function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- //custom-theme -->
-<link href="/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="/css/component.css" rel="stylesheet" type="text/css" media="all" />
-<link href="/css/style_grid.css" rel="stylesheet" type="text/css" media="all" />
-<link href="/css/style.css" rel="stylesheet" type="text/css" media="all" />
-<!-- font-awesome-icons -->
-<link href="/css/font-awesome.css" rel="stylesheet"> 
-<!-- //font-awesome-icons -->
-<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
-</head>
-<body>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta charset="utf-8" />
+		<title>登录</title>
 
-<!-- banner -->
-<div class="wthree_agile_admin_info">
-		  <!-- /w3_agileits_top_nav-->
-		  <!-- /nav-->
-		  <div class="w3_agileits_top_nav">
-			<ul id="gn-menu" class="gn-menu-main">
+		<meta name="description" content="User login page" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
-				<!-- //nav_agile_w3l -->
-                <li class="second logo admin"><h1><a href="main-page.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i>Esteem </a></h1></li>
-					
-				<li class="second w3l_search admin_login">
-				 
-						<form action="#" method="post">
-							<input type="search" name="search" placeholder="Search here..." required="">
-							<button class="btn btn-default" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-						</form>
-					
-				</li>
-				<li class="second full-screen">
-					<section class="full-top">
-						<button id="toggle"><i class="fa fa-arrows-alt" aria-hidden="true"></i></button>	
-					</section>
-				</li>
+		<!-- bootstrap & fontawesome -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="assets/font-awesome/4.5.0/css/font-awesome.min.css" />
 
-			</ul>
-			<!-- //nav -->
-			
-		</div>
-		<div class="clearfix"></div>
-		<!-- //w3_agileits_top_nav-->
-		<div class="tlinks">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>
-		
-		<!-- /inner_content-->
-				<div class="inner_content">
-				    <!-- /inner_content_w3_agile_info-->
-					<div class="inner_content_w3_agile_info">
-					
+		<!-- text fonts -->
+		<link rel="stylesheet" href="assets/css/fonts.googleapis.com.css" />
 
-							<div class="registration admin_agile">
-								
-												<div class="signin-form profile admin">
-													<h2>Admin Login</h2>
-													<div class="login-form">
-														<form action=# th:action="@{/login/loginIn}" method="post">
-															<input type="text" id="userInfo.userName" name="userInfo.userName"      required="" />
-															<input type="password" id="userInfo.passWord" name="userInfo.passWord"   required="" />
-															<div class="tp">
-																<input type="submit" value="LOGIN">
-															</div>
-															
-														</form>
+		<!-- ace styles -->
+		<link rel="stylesheet" href="assets/css/ace.min.css" />
+
+		<!--[if lte IE 9]>
+			<link rel="stylesheet" href="assets/css/ace-part2.min.css" />
+		<![endif]-->
+		<link rel="stylesheet" href="assets/css/ace-rtl.min.css" />
+
+		<!--[if lte IE 9]>
+		  <link rel="stylesheet" href="assets/css/ace-ie.min.css" />
+		<![endif]-->
+
+		<!-- HTML5shiv and Respond.js for IE8 to support HTML5 elements and media queries -->
+
+		<!--[if lte IE 8]>
+		<script src="assets/js/html5shiv.min.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body class="login-layout">
+		<div class="main-container">
+			<div class="main-content">
+				<div class="row">
+					<div class="col-sm-10 col-sm-offset-1">
+						<div class="login-container">
+							<div class="center">
+								<h1>
+									<i class="ace-icon fa fa-leaf green"></i>
+									<span class="red">Ace</span>
+									<span class="white" id="id-text2">Application</span>
+								</h1>
+								<h4 class="blue" id="id-company-text">&copy; Company Name</h4>
+							</div>
+
+							<div class="space-6"></div>
+
+							<div class="position-relative">
+								<div id="login-box" class="login-box visible widget-box no-border">
+									<div class="widget-body">
+										<div class="widget-main">
+											<h4 class="header blue lighter bigger">
+												<i class="ace-icon fa fa-coffee green"></i>
+												Please Enter Your Information
+											</h4>
+
+											<div class="space-6"></div>
+
+											<form>
+												<fieldset>
+													<label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="text" class="form-control" placeholder="Username" />
+															<i class="ace-icon fa fa-user"></i>
+														</span>
+													</label>
+
+													<label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="password" class="form-control" placeholder="Password" />
+															<i class="ace-icon fa fa-lock"></i>
+														</span>
+													</label>
+
+													<div class="space"></div>
+
+													<div class="clearfix">
+														<label class="inline">
+															<input type="checkbox" class="ace" />
+															<span class="lbl"> Remember Me</span>
+														</label>
+
+														<button type="button" class="width-35 pull-right btn btn-sm btn-primary">
+															<i class="ace-icon fa fa-key"></i>
+															<span class="bigger-110">Login</span>
+														</button>
 													</div>
-													<div class="login-social-grids admin_w3">
-														<ul>
-															<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-															<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-															<li><a href="#"><i class="fa fa-rss"></i></a></li>
-														</ul>
+
+													<div class="space-4"></div>
+												</fieldset>
+											</form>
+
+											<div class="social-or-login center">
+												<span class="bigger-110">Or Login Using</span>
+											</div>
+
+											<div class="space-6"></div>
+
+											<div class="social-login center">
+												<a class="btn btn-primary">
+													<i class="ace-icon fa fa-facebook"></i>
+												</a>
+
+												<a class="btn btn-info">
+													<i class="ace-icon fa fa-twitter"></i>
+												</a>
+
+												<a class="btn btn-danger">
+													<i class="ace-icon fa fa-google-plus"></i>
+												</a>
+											</div>
+										</div><!-- /.widget-main -->
+
+										<div class="toolbar clearfix">
+											<div>
+												<a href="#" data-target="#forgot-box" class="forgot-password-link">
+													<i class="ace-icon fa fa-arrow-left"></i>
+													I forgot my password
+												</a>
+											</div>
+
+											<div>
+												<a href="#" data-target="#signup-box" class="user-signup-link">
+													I want to register
+													<i class="ace-icon fa fa-arrow-right"></i>
+												</a>
+											</div>
+										</div>
+									</div><!-- /.widget-body -->
+								</div><!-- /.login-box -->
+
+								<div id="forgot-box" class="forgot-box widget-box no-border">
+									<div class="widget-body">
+										<div class="widget-main">
+											<h4 class="header red lighter bigger">
+												<i class="ace-icon fa fa-key"></i>
+												Retrieve Password
+											</h4>
+
+											<div class="space-6"></div>
+											<p>
+												Enter your email and to receive instructions
+											</p>
+
+											<form>
+												<fieldset>
+													<label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="email" class="form-control" placeholder="Email" />
+															<i class="ace-icon fa fa-envelope"></i>
+														</span>
+													</label>
+
+													<div class="clearfix">
+														<button type="button" class="width-35 pull-right btn btn-sm btn-danger">
+															<i class="ace-icon fa fa-lightbulb-o"></i>
+															<span class="bigger-110">Send Me!</span>
+														</button>
 													</div>
-												
-													 <h6><a href="main-page.html">Back To Home</a><h6>
+												</fieldset>
+											</form>
+										</div><!-- /.widget-main -->
 
-													 
-												</div>
+										<div class="toolbar center">
+											<a href="#" data-target="#login-box" class="back-to-login-link">
+												Back to login
+												<i class="ace-icon fa fa-arrow-right"></i>
+											</a>
+										</div>
+									</div><!-- /.widget-body -->
+								</div><!-- /.forgot-box -->
 
-					
+								<div id="signup-box" class="signup-box widget-box no-border">
+									<div class="widget-body">
+										<div class="widget-main">
+											<h4 class="header green lighter bigger">
+												<i class="ace-icon fa fa-users blue"></i>
+												New User Registration
+											</h4>
 
-				    </div>
-					<!-- //inner_content_w3_agile_info-->
-				</div>
-		<!-- //inner_content-->
-	</div>
-<!-- banner -->
-<!--copy rights start here-->
-<div class="copyrights">
-	 <p>Copyright &copy; 2017.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
-</div>	
-<!--copy rights end here-->
-<!-- js -->
+											<div class="space-6"></div>
+											<p> Enter your details to begin: </p>
 
-          <script type="text/javascript" src="/js/jquery-2.1.4.min.js"></script>
-		  <script src="/js/modernizr.custom.js"></script>
-		
-		   <script src="/js/classie.js"></script>
-		  <script src="/js/gnmenu.js"></script>
-		  <script>
-			new gnMenu( document.getElementById( 'gn-menu' ) );
-		 </script>
-	<!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>--->        
-			<script type="text/javascript">
-				google.maps.event.addDomListener(window, 'load', init);
-				function init() {
-					var mapOptions = {
-						zoom: 11,
-						center: new google.maps.LatLng(40.6700, -73.9400),
-						styles: [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]
-					};
-					var mapElement = document.getElementById('map');
-					var map = new google.maps.Map(mapElement, mapOptions);
-					var marker = new google.maps.Marker({
-						position: new google.maps.LatLng(40.6700, -73.9400),
-						map: map,
-					});
-				}
-			</script>
-			  <script src="/js/prettymaps.js"></script>
-				<script>
+											<form>
+												<fieldset>
+													<label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="email" class="form-control" placeholder="Email" />
+															<i class="ace-icon fa fa-envelope"></i>
+														</span>
+													</label>
 
-        $(function(){
-            //default
-            $('.map-canvas').prettyMaps({
-                address: 'Melbourne, Australia',
-                image: 'map-icon.png',
-                hue: '#FF0000',
-                saturation: -20
-            });
+													<label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="text" class="form-control" placeholder="Username" />
+															<i class="ace-icon fa fa-user"></i>
+														</span>
+													</label>
 
-            //red map example
-            $('#default-map-btn').on('click', function(){
-                $('.map-canvas').prettyMaps();
-            });
+													<label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="password" class="form-control" placeholder="Password" />
+															<i class="ace-icon fa fa-lock"></i>
+														</span>
+													</label>
 
-            //green map example
-            $('#green-map-btn').on('click', function(){
-                $('.map-canvas').prettyMaps({
-                    address: 'Melbourne, Australia',
-                    image: 'map-icon.png',
-                    hue: '#00FF55',
-                    saturation: -30
-                });
-            });
+													<label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="password" class="form-control" placeholder="Repeat password" />
+															<i class="ace-icon fa fa-retweet"></i>
+														</span>
+													</label>
 
-            //blue map example
-            $('#blue-map-btn').on('click', function(){
-                $('.map-canvas').prettyMaps({
-                    address: 'Melbourne, Australia',
-                    image: 'map-icon.png',
-                    hue: '#0073FF',
-                    saturation: -30,
-                    zoom: 16,
-                    panControl: true,
-                    zoomControl: true,
-                    mapTypeControl: true,
-                    scaleControl: true,
-                    streetViewControl: true,
-                    overviewMapControl: true,
-                    scrollwheel: false,
-                });
-            });
-            
-            //grey map example
-            $('#grey-map-btn').on('click', function(){
-                $('.map-canvas').prettyMaps({
-                    address: 'Melbourne, Australia',
-                    image: 'map-icon.png',
-                    saturation: -100,
-                    lightness: 10
-                });
-            });
-        });
+													<label class="block">
+														<input type="checkbox" class="ace" />
+														<span class="lbl">
+															I accept the
+															<a href="#">User Agreement</a>
+														</span>
+													</label>
 
-  </script>
-<!-- //js -->
-<script src="/js/screenfull.js"></script>
-		<script>
-		$(function () {
-			$('#supported').text('Supported/allowed: ' + !!screenfull.enabled);
+													<div class="space-24"></div>
 
-			if (!screenfull.enabled) {
-				return false;
-			}
+													<div class="clearfix">
+														<button type="reset" class="width-30 pull-left btn btn-sm">
+															<i class="ace-icon fa fa-refresh"></i>
+															<span class="bigger-110">Reset</span>
+														</button>
 
-			
+														<button type="button" class="width-65 pull-right btn btn-sm btn-success">
+															<span class="bigger-110">Register</span>
 
-			$('#toggle').click(function () {
-				screenfull.toggle($('#container')[0]);
-			});	
-		});
+															<i class="ace-icon fa fa-arrow-right icon-on-right"></i>
+														</button>
+													</div>
+												</fieldset>
+											</form>
+										</div>
+
+										<div class="toolbar center">
+											<a href="#" data-target="#login-box" class="back-to-login-link">
+												<i class="ace-icon fa fa-arrow-left"></i>
+												Back to login
+											</a>
+										</div>
+									</div><!-- /.widget-body -->
+								</div><!-- /.signup-box -->
+							</div><!-- /.position-relative -->
+
+							<div class="navbar-fixed-top align-right">
+								<br />
+								&nbsp;
+								<a id="btn-login-dark" href="#">Dark</a>
+								&nbsp;
+								<span class="blue">/</span>
+								&nbsp;
+								<a id="btn-login-blur" href="#">Blur</a>
+								&nbsp;
+								<span class="blue">/</span>
+								&nbsp;
+								<a id="btn-login-light" href="#">Light</a>
+								&nbsp; &nbsp; &nbsp;
+							</div>
+						</div>
+					</div><!-- /.col -->
+				</div><!-- /.row -->
+			</div><!-- /.main-content -->
+		</div><!-- /.main-container -->
+
+		<!-- basic scripts -->
+
+		<!--[if !IE]> -->
+		<script src="assets/js/jquery-2.1.4.min.js"></script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+<script src="assets/js/jquery-1.11.3.min.js"></script>
+<![endif]-->
+		<script type="text/javascript">
+			if('ontouchstart' in document.documentElement) document.write("<script src='assets/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
 		</script>
-<script src="/js/jquery.nicescroll.js"></script>
-<script src="/js/scripts.js"></script>
 
-<script type="text/javascript" src="/js/bootstrap-3.1.1.min.js"></script>
-
-
-</body>
+		<!-- inline scripts related to this page -->
+		<script type="text/javascript">
+			jQuery(function($) {
+			 $(document).on('click', '.toolbar a[data-target]', function(e) {
+				e.preventDefault();
+				var target = $(this).data('target');
+				$('.widget-box.visible').removeClass('visible');//hide others
+				$(target).addClass('visible');//show target
+			 });
+			});
+			
+			
+			
+			//you don't need this, just used for changing background
+			jQuery(function($) {
+			 $('#btn-login-dark').on('click', function(e) {
+				$('body').attr('class', 'login-layout');
+				$('#id-text2').attr('class', 'white');
+				$('#id-company-text').attr('class', 'blue');
+				
+				e.preventDefault();
+			 });
+			 $('#btn-login-light').on('click', function(e) {
+				$('body').attr('class', 'login-layout light-login');
+				$('#id-text2').attr('class', 'grey');
+				$('#id-company-text').attr('class', 'blue');
+				
+				e.preventDefault();
+			 });
+			 $('#btn-login-blur').on('click', function(e) {
+				$('body').attr('class', 'login-layout blur-login');
+				$('#id-text2').attr('class', 'white');
+				$('#id-company-text').attr('class', 'light-blue');
+				
+				e.preventDefault();
+			 });
+			 
+			});
+		</script>
+	</body>
 </html>

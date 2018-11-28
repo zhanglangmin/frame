@@ -9,7 +9,6 @@ import org.springframework.context.support.ResourceBundleMessageSource;
  * @date 2018年11月22日 上午11:06:46
  * 
  */
-@Configuration
 public class MainConfig {
 //	@Bean
 //	public ResourceBundleMessageSource messageSource(){

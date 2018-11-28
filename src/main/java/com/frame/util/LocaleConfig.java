@@ -32,7 +32,7 @@ public class LocaleConfig implements WebMvcConfigurer{
         localeResolver.setCookieName("localeCookie");
         //设置默认区域
         localeResolver.setDefaultLocale(Locale.CHINA);
-        localeResolver.setCookieMaxAge(3600);//设置cookie有效期.
+        localeResolver.setCookieMaxAge(1);//设置cookie有效期.
         return localeResolver;
     }
 	

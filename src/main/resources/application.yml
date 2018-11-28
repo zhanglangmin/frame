@@ -14,18 +14,19 @@ spring:
     suffix: .html
     mode: HTML5
     encoding: UTF-8
-  #热部署文件，页面不产生缓存，及时更新
-    cache: false
+    cache: false #热部署文件，页面不产生缓存，及时更新
   messages:
         encoding: UTF-8  #默认
         basename: i18n/message #默认为messages，这里设置指向resource下的message配置文件，
   resources:
-    #static-locations: classpath:/static  配置静态资源
+    static-locations: classpath:/resources/,classpath:/static/,classpath:/page/ ##配置静态资源
     chain:
       strategy:
         content:
           enabled: true
           paths: /**  
+
+
 #引入日志配置文件
 #=====================================  log  =============================
 logging:
